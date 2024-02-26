@@ -1,0 +1,30 @@
+2024-02-26 14:27:48.950 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 14:27:48.950 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 14:27:48.950 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 14:27:48.950 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 14:27:48.950 [info] Default formatter is set to null for workspace /root
+2024-02-26 14:27:48.950 [info] Test server listening.
+2024-02-26 14:27:48.974 [info] > python -c "import sys;print(sys.executable)"
+2024-02-26 14:27:49.008 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-26 14:27:49.008 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:49.008 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:49.008 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:49.028 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:27:49.035 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:27:49.035 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-26 14:27:49.041 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:27:49.070 [info] Python interpreter path: /usr/bin/python
+2024-02-26 14:27:50.559 [info] Starting Pylance language server.

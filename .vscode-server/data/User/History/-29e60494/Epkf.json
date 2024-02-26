@@ -1,0 +1,11 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.defaultInterpreterPath": "C:\\Anaconda\\anaconda\\envs\\spyder\\python.exe",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "remote.SSH.remotePlatform": {
+        "orion.mokpo.ac.kr": "linux"
+    }
+}

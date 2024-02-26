@@ -1,0 +1,13 @@
+2024-02-26 14:13:07.126 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 14:13:07.841 [info] [Info  - 오후 2:13:07] (234252) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 14:13:07.841 [info] [Info  - 오후 2:13:07] (234252) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:13:07.841 [info] [Info  - 오후 2:13:07] (234252) Starting service instance "root"
+2024-02-26 14:13:07.950 [info] [Info  - 오후 2:13:07] (234252) Setting environmentName for service "root": "/root/anaconda3/bin/python"
+2024-02-26 14:13:08.041 [info] [Info  - 오후 2:13:08] (234252) Found 1 source file
+2024-02-26 14:13:08.547 [info] [Info  - 오후 2:13:08] (234252) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:13:08.550 [info] [Info  - 오후 2:13:08] (234252) Background analysis(1) started
+2024-02-26 14:13:08.799 [info] [Info  - 오후 2:13:08] (234252) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 14:13:08.799 [info] [Info  - 오후 2:13:08] (234252) Indexing(2) started
+2024-02-26 14:13:09.424 [info] [Info  - 오후 2:13:09] (234252) scanned(2) 14 files over 1 exec env
+2024-02-26 14:13:10.878 [info] [Info  - 오후 2:13:10] (234252) indexed(2) 3 files over 1 exec env
+2024-02-26 14:13:10.925 [info] [Info  - 오후 2:13:10] (234252) Indexing finished(2).

@@ -1,0 +1,57 @@
+2024-02-26 14:27:48.915 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 14:27:48.915 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 14:27:48.915 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-26 14:27:48.915 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 14:27:48.915 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 14:27:48.915 [info] Default formatter is set to null for workspace /root
+2024-02-26 14:27:48.915 [info] Test server listening.
+2024-02-26 14:27:48.946 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:27:48.961 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:27:49.003 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-26 14:27:49.003 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:49.003 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:49.003 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:27:50.974 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:27:50.976 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:27:50.997 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+2024-02-26 14:27:50.998 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -c "import sys;print(sys.executable)"'
+}
+2024-02-26 14:27:52.406 [info] Starting Pylance language server.

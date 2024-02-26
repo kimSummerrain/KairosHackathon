@@ -1,0 +1,25 @@
+2024-02-26 14:26:18.147 [info] 로그 수준: Info
+2024-02-26 14:26:18.147 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-02-26 14:26:18.147 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2024-02-26 14:26:18.147 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:26:18.147 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:26:18.147 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:26:18.147 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:26:18.148 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:26:18.148 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:26:38.053 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:26:38.053 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:31:31.231 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:31:31.241 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-26 14:31:31.262 [info] Open repository: /root
+2024-02-26 14:31:31.282 [info] No remotes found in the git config file.
+2024-02-26 14:31:31.284 [info] > git config --get commit.template [10ms]
+2024-02-26 14:31:31.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-26 14:31:31.402 [info] > git status -z -uall [110ms] (cancelled)
+2024-02-26 14:32:31.192 [info] > git check-ignore -v -z --stdin [8ms]
+2024-02-26 14:33:30.785 [info] > git show --textconv :kairos/app.py [14ms]
+2024-02-26 14:33:30.788 [info] > git ls-files --stage -- /root/kairos/app.py [6ms]
+2024-02-26 14:33:30.798 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-02-26 14:34:39.849 [info] > git ls-files --stage -- /root/kairos/app.py [8ms]
+2024-02-26 14:34:39.858 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-02-26 14:34:39.884 [info] > git show --textconv :kairos/app.py [5ms]

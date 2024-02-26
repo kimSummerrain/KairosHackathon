@@ -1,0 +1,43 @@
+2024-02-26 14:25:55.012 [info] 
+
+
+
+
+2024-02-26 14:25:55.024 [info] Extension host agent started.
+2024-02-26 14:25:55.094 [info] [<unknown>][232da5f8][ExtensionHostConnection] New connection established.
+2024-02-26 14:25:55.101 [info] [<unknown>][6e880b89][ManagementConnection] New connection established.
+2024-02-26 14:25:55.224 [info] [<unknown>][232da5f8][ExtensionHostConnection] <234880> Launched Extension Host Process.
+2024-02-26 14:27:49.813 [info] [<unknown>][43029138][ManagementConnection] New connection established.
+2024-02-26 14:27:49.818 [info] [<unknown>][abd893f6][ExtensionHostConnection] New connection established.
+2024-02-26 14:27:49.830 [info] [<unknown>][abd893f6][ExtensionHostConnection] <236283> Launched Extension Host Process.
+2024-02-26 14:27:52.008 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 14:28:02.904 [info] [<unknown>][c776b31e][ManagementConnection] New connection established.
+2024-02-26 14:28:02.906 [info] [<unknown>][3fc116ad][ExtensionHostConnection] New connection established.
+2024-02-26 14:28:02.919 [info] [<unknown>][3fc116ad][ExtensionHostConnection] <236410> Launched Extension Host Process.
+2024-02-26 14:28:20.060 [info] [<unknown>][adeabe82][ManagementConnection] New connection established.
+2024-02-26 14:28:20.063 [info] [<unknown>][8799ec31][ExtensionHostConnection] New connection established.
+2024-02-26 14:28:20.078 [info] [<unknown>][8799ec31][ExtensionHostConnection] <236509> Launched Extension Host Process.
+2024-02-26 14:28:27.613 [info] [<unknown>][0387f55e][ExtensionHostConnection] New connection established.
+2024-02-26 14:28:27.625 [info] [<unknown>][0387f55e][ExtensionHostConnection] <236612> Launched Extension Host Process.
+2024-02-26 14:28:27.626 [info] [<unknown>][0b734398][ManagementConnection] New connection established.
+2024-02-26 14:30:55.028 [info] New EH opened, aborting shutdown
+2024-02-26 14:30:55.031 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-26 14:32:49.938 [info] [<unknown>][232da5f8][ExtensionHostConnection] <234880> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 14:33:02.985 [info] [<unknown>][abd893f6][ExtensionHostConnection] <236283> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 14:33:20.256 [info] [<unknown>][3fc116ad][ExtensionHostConnection] <236410> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 14:33:27.761 [info] [<unknown>][8799ec31][ExtensionHostConnection] <236509> Extension Host Process exited with code: 0, signal: null.

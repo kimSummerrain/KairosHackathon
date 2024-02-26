@@ -1,0 +1,18 @@
+2024-02-26 14:28:36.907 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 14:28:37.697 [info] [Info  - 오후 2:28:37] (236667) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 14:28:37.697 [info] [Info  - 오후 2:28:37] (236667) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:28:37.698 [info] [Info  - 오후 2:28:37] (236667) Starting service instance "root"
+2024-02-26 14:28:37.742 [info] [Info  - 오후 2:28:37] (236667) Setting environmentName for service "root": "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe"
+2024-02-26 14:28:37.829 [info] [Info  - 오후 2:28:37] (236667) Found 1 source file
+2024-02-26 14:28:38.395 [info] [Info  - 오후 2:28:38] (236667) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:28:38.398 [info] [Info  - 오후 2:28:38] (236667) Background analysis(1) started
+2024-02-26 14:28:38.634 [info] [Info  - 오후 2:28:38] (236667) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 14:28:38.634 [info] [Info  - 오후 2:28:38] (236667) Indexing(2) started
+2024-02-26 14:28:39.285 [info] [Info  - 오후 2:28:39] (236667) scanned(2) 14 files over 1 exec env
+2024-02-26 14:28:39.988 [info] [Info  - 오후 2:28:39] (236667) indexed(2) 3 files over 1 exec env
+2024-02-26 14:28:40.030 [info] [Info  - 오후 2:28:40] (236667) Indexing finished(2).
+2024-02-26 14:35:22.741 [info] [Info  - 오후 2:35:22] (236667) Setting environmentName for service "root": "C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe"
+2024-02-26 14:35:22.816 [info] [Info  - 오후 2:35:22] (236667) Found 1 source file
+2024-02-26 14:35:23.491 [info] [Info  - 오후 2:35:23] (236667) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 14:35:23.491 [info] [Info  - 오후 2:35:23] (236667) Indexing(3) started
+2024-02-26 14:35:23.961 [info] [Info  - 오후 2:35:23] (236667) scanned(3) 14 files over 1 exec env

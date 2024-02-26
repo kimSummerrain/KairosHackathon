@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "remote.SSH.remotePlatform": {
+        "orion.mokpo.ac.kr": "linux"
+    }
+}

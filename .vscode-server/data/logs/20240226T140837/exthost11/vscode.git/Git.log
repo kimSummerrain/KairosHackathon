@@ -1,0 +1,62 @@
+2024-02-26 14:32:29.718 [info] Log level: Info
+2024-02-26 14:32:29.718 [info] Validating found git in: "git"
+2024-02-26 14:32:29.718 [info] Using git "2.20.1" from "git"
+2024-02-26 14:32:29.718 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.718 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.718 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:32:29.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.753 [info] > git rev-parse --show-toplevel [36ms]
+2024-02-26 14:32:29.753 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-26 14:32:29.763 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.763 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.769 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:32:29.769 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.774 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:32:29.774 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.780 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:32:29.780 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.785 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:32:29.785 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.789 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:32:29.789 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.794 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.794 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:29.799 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.799 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-26 14:32:29.805 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:29.811 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-02-26 14:32:29.828 [info] Open repository: /root
+2024-02-26 14:32:30.043 [info] > git config --get commit.template [208ms]
+2024-02-26 14:32:30.044 [info] > git fetch [215ms]
+2024-02-26 14:32:30.052 [info] > git rev-parse --show-toplevel [212ms]
+2024-02-26 14:32:30.052 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.058 [info] No remotes found in the git config file.
+2024-02-26 14:32:30.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-02-26 14:32:30.064 [warning] No such branch: master.
+2024-02-26 14:32:30.069 [info] > git config --get commit.template [17ms]
+2024-02-26 14:32:30.075 [info] No remotes found in the git config file.
+2024-02-26 14:32:30.081 [info] > git rev-parse --show-toplevel [19ms]
+2024-02-26 14:32:30.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-02-26 14:32:30.086 [warning] No such branch: master.
+2024-02-26 14:32:30.090 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-26 14:32:30.091 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.091 [info] > git config --get commit.template [11ms]
+2024-02-26 14:32:30.095 [info] No remotes found in the git config file.
+2024-02-26 14:32:30.100 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-02-26 14:32:30.100 [warning] No such branch: master.
+2024-02-26 14:32:30.106 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-26 14:32:30.106 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-02-26 14:32:30.123 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:32:30.123 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.129 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:30.129 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.136 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:32:30.136 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:32:30.401 [info] > git status -z -uall [297ms] (cancelled)
+2024-02-26 14:32:30.653 [info] > git check-ignore -v -z --stdin [8ms]

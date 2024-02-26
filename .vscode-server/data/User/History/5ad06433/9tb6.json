@@ -1,0 +1,17 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.colorTheme": "ayu MiDas",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "developer-icons",
+    "[python]": {
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "powermode.shake.intensity": 0,
+    "window.commandCenter": false,
+    "remote.SSH.remotePlatform": {
+        "orion.mokpo.ac.kr": "linux"
+    }
+}

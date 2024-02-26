@@ -1,0 +1,24 @@
+2024-02-26 14:08:57.141 [info] Log level: Info
+2024-02-26 14:08:57.141 [info] Validating found git in: "git"
+2024-02-26 14:08:57.141 [info] Using git "2.20.1" from "git"
+2024-02-26 14:08:57.141 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:08:57.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:08:57.141 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:08:57.141 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:11:53.684 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-26 14:11:53.684 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:12:07.859 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 14:12:07.859 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:12:08.562 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:12:08.562 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:12:09.293 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:12:09.293 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:12:26.951 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:12:26.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:12:52.889 [warning] Failed to get repository realpath for: "/root/.vscode-server/extensions/.c3449e4d-ac32-4097-afcf-e56ab3a27c3b/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/". Error: ENOENT: no such file or directory, realpath '/root/.vscode-server/extensions/.c3449e4d-ac32-4097-afcf-e56ab3a27c3b/bundled/libs/debugpy/_vendored/pydevd/_pydevd_frame_eval/'
+2024-02-26 14:12:53.679 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:12:53.679 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:13:03.173 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:13:03.173 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-02-26 14:13:03.206 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 14:13:03.206 [info] fatal: not a git repository (or any of the parent directories): .git

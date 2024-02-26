@@ -1,0 +1,21 @@
+2024-02-26 14:27:43.914 [info] Extension host with pid 236153 started
+2024-02-26 14:27:43.914 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock'
+2024-02-26 14:27:43.921 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:27:43.927 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': The lock does not look stale, elapsed: 493 ms, giving up.
+2024-02-26 14:27:43.928 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock'
+2024-02-26 14:27:43.928 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:27:43.929 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': The lock does not look stale, elapsed: 939 ms, giving up.
+2024-02-26 14:27:43.930 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock'
+2024-02-26 14:27:43.930 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:27:43.931 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': The lock does not look stale, elapsed: 793 ms, giving up.
+2024-02-26 14:27:43.947 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock': Lock acquired.
+2024-02-26 14:27:43.969 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-02-26 14:27:44.058 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 14:27:44.156 [info] Eager extensions activated
+2024-02-26 14:27:44.156 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 14:27:44.157 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 14:27:44.952 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-02-26 14:27:47.701 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 14:27:47.702 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 14:27:47.703 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-26 14:27:48.427 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

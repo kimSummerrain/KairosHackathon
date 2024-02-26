@@ -1,0 +1,24 @@
+2024-02-26 14:28:28.220 [info] Extension host with pid 236612 started
+2024-02-26 14:28:28.220 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock'
+2024-02-26 14:28:28.224 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:28:28.228 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': The lock does not look stale, elapsed: 786 ms, giving up.
+2024-02-26 14:28:28.229 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock'
+2024-02-26 14:28:28.229 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:28:28.230 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': The lock does not look stale, elapsed: 235 ms, giving up.
+2024-02-26 14:28:28.230 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock'
+2024-02-26 14:28:28.230 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:28:28.231 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': The lock does not look stale, elapsed: 16 ms, giving up.
+2024-02-26 14:28:28.231 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock'
+2024-02-26 14:28:28.231 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 14:28:28.232 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock': The lock does not look stale, elapsed: 48 ms, giving up.
+2024-02-26 14:28:28.246 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-4/vscode.lock': Lock acquired.
+2024-02-26 14:28:28.384 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-02-26 14:28:28.531 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 14:28:28.620 [info] Eager extensions activated
+2024-02-26 14:28:28.620 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 14:28:28.621 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 14:28:29.440 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-02-26 14:28:33.012 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 14:28:33.013 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 14:28:33.014 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-26 14:28:33.724 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

@@ -1,0 +1,203 @@
+2024-02-26 14:13:03.812 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 14:13:03.812 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 14:13:03.812 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-26 14:13:03.812 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 14:13:03.812 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 14:13:03.848 [info] Default formatter is set to esbenp.prettier-vscode for workspace /root
+2024-02-26 14:13:04.315 [info] Test server listening.
+2024-02-26 14:13:04.318 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:04.332 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:04.352 [info] > C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:13:04.360 [info] > ./anaconda3/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:13:04.364 [error] [Error: Command failed: C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:Users강민지AppDataLocalProgramsPythonPython311python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\강민지\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:13:04.368 [error] [Error: Command failed: /root/anaconda3/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/anaconda3/bin/python: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/root/anaconda3/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:13:04.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:13:04.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:13:04.408 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:13:06.377 [info] > C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:13:06.386 [info] > ./anaconda3/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:13:06.396 [error] [Error: Command failed: C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:Users강민지AppDataLocalProgramsPythonPython311python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\강민지\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:13:06.401 [error] [Error: Command failed: /root/anaconda3/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/anaconda3/bin/python: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/root/anaconda3/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:13:06.404 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:06.406 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:06.421 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:06.422 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:06.424 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:06.424 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:06.585 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:06.588 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:07.875 [info] Starting Pylance language server.
+2024-02-26 14:13:07.879 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:07.888 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:07.888 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:07.891 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:07.902 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:07.911 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:13:09.857 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:13:09.859 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:22:07.845 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:22:07.847 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:22:07.852 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:22:07.854 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}

@@ -1,0 +1,32 @@
+2024-02-26 14:32:49.982 [info] Log level: Info
+2024-02-26 14:32:49.982 [info] Validating found git in: "git"
+2024-02-26 14:32:49.982 [info] Using git "2.20.1" from "git"
+2024-02-26 14:32:49.982 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 14:32:49.982 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-26 14:32:49.982 [info] Open repository: /root
+2024-02-26 14:32:49.982 [info] > git config --get commit.template [8ms]
+2024-02-26 14:32:49.982 [info] > git fetch [18ms]
+2024-02-26 14:32:49.982 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-26 14:32:49.982 [info] No remotes found in the git config file.
+2024-02-26 14:32:49.982 [info] > git config --get commit.template [12ms]
+2024-02-26 14:32:49.982 [info] No remotes found in the git config file.
+2024-02-26 14:32:49.982 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-26 14:32:49.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2024-02-26 14:32:49.982 [warning] No such branch: master.
+2024-02-26 14:32:49.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-02-26 14:32:49.982 [warning] No such branch: master.
+2024-02-26 14:32:49.982 [info] > git config --get commit.template [3ms]
+2024-02-26 14:32:49.982 [info] No remotes found in the git config file.
+2024-02-26 14:32:49.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [35ms]
+2024-02-26 14:32:49.982 [warning] No such branch: master.
+2024-02-26 14:32:50.078 [info] > git status -z -uall [100ms] (cancelled)
+2024-02-26 14:32:50.504 [info] > git check-ignore -v -z --stdin [13ms]
+2024-02-26 14:32:55.972 [info] > git show --textconv :kairos/app.py [10ms]
+2024-02-26 14:32:55.976 [info] > git ls-files --stage -- /root/kairos/app.py [5ms]
+2024-02-26 14:32:55.984 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2024-02-26 14:34:28.552 [info] > git show --textconv :.mysql_history [10ms]
+2024-02-26 14:34:28.562 [info] > git ls-files --stage -- /root/.mysql_history [9ms]
+2024-02-26 14:34:28.574 [info] > git cat-file -s a78d891010e47e1a74203326915220093a6f3964 [2ms]
+2024-02-26 14:34:29.265 [info] > git show --textconv :kairos/app.py [11ms]
+2024-02-26 14:34:29.272 [info] > git ls-files --stage -- /root/kairos/app.py [8ms]
+2024-02-26 14:34:29.283 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]

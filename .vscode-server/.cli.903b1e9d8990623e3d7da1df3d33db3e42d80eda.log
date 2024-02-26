@@ -1,0 +1,3 @@
+Listening on 127.0.0.1:33057
+[2024-02-26 14:32:53] info Disposed of connection to running server.
+looking for token 7c86d0eb-7c1c-49f3-b2a5-1e9f806e561d, got Some("7c86d0eb-7c1c-49f3-b2a5-1e9f806e561d")

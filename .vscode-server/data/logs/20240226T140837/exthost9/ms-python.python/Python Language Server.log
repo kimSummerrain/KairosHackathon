@@ -1,0 +1,20 @@
+2024-02-26 14:27:51.654 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 14:27:52.386 [info] [Info  - 오후 2:27:52] (236329) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 14:27:52.386 [info] [Info  - 오후 2:27:52] (236329) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:27:52.386 [info] [Info  - 오후 2:27:52] (236329) Starting service instance "root"
+2024-02-26 14:27:52.433 [info] [Info  - 오후 2:27:52] (236329) Setting environmentName for service "root": "C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2024-02-26 14:27:52.517 [info] [Info  - 오후 2:27:52] (236329) Found 1 source file
+2024-02-26 14:27:53.051 [info] [Info  - 오후 2:27:53] (236329) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:27:53.054 [info] [Info  - 오후 2:27:53] (236329) Background analysis(1) started
+2024-02-26 14:27:53.269 [info] [Info  - 오후 2:27:53] (236329) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 14:27:53.269 [info] [Info  - 오후 2:27:53] (236329) Indexing(2) started
+2024-02-26 14:27:53.928 [info] [Info  - 오후 2:27:53] (236329) scanned(2) 14 files over 1 exec env
+2024-02-26 14:27:54.772 [info] [Info  - 오후 2:27:54] (236329) indexed(2) 3 files over 1 exec env
+2024-02-26 14:27:54.820 [info] [Info  - 오후 2:27:54] (236329) Indexing finished(2).
+2024-02-26 14:32:18.360 [info] [Info  - 오후 2:32:18] (236329) Setting environmentName for service "root": "C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2024-02-26 14:32:18.428 [info] [Info  - 오후 2:32:18] (236329) Found 1 source file
+2024-02-26 14:32:19.143 [info] [Info  - 오후 2:32:19] (236329) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 14:32:19.143 [info] [Info  - 오후 2:32:19] (236329) Indexing(3) started
+2024-02-26 14:32:19.678 [info] [Info  - 오후 2:32:19] (236329) scanned(3) 14 files over 1 exec env
+2024-02-26 14:32:20.446 [info] [Info  - 오후 2:32:20] (236329) indexed(3) 3 files over 1 exec env
+2024-02-26 14:32:20.447 [info] [Info  - 오후 2:32:20] (236329) Indexing finished(3).
