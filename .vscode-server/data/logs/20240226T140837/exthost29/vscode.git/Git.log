@@ -1,0 +1,201 @@
+2024-02-26 18:47:49.923 [info] 로그 수준: Info
+2024-02-26 18:47:49.923 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-02-26 18:47:49.923 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2024-02-26 18:47:49.923 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-26 18:47:49.923 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-02-26 18:47:49.923 [info] Open repository: /root
+2024-02-26 18:47:49.923 [info] > git config --get commit.template [10ms]
+2024-02-26 18:47:49.923 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-26 18:47:49.923 [info] No remotes found in the git config file.
+2024-02-26 18:47:49.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-02-26 18:47:49.923 [warning] No such branch: master.
+2024-02-26 18:47:49.923 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-26 18:47:49.923 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 18:47:49.923 [info] > git rev-parse --show-toplevel [120ms]
+2024-02-26 18:47:49.926 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-26 18:47:49.939 [info] > git status -z -uall [229ms] (cancelled)
+2024-02-26 18:47:50.077 [info] > git show --textconv :venvs/karios/app.py [70ms]
+2024-02-26 18:47:50.078 [info] > git ls-files --stage -- /root/venvs/karios/app.py [60ms]
+2024-02-26 18:47:50.469 [info] > git check-ignore -v -z --stdin [20ms]
+2024-02-26 18:47:58.012 [info] > git config --get commit.template [16ms]
+2024-02-26 18:47:58.033 [info] No remotes found in the git config file.
+2024-02-26 18:47:58.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-02-26 18:47:58.036 [warning] No such branch: master.
+2024-02-26 18:48:00.611 [info] > git status -z -uall [2549ms] (cancelled)
+2024-02-26 18:48:45.134 [info] > git check-ignore -v -z --stdin [35ms]
+2024-02-26 18:56:04.007 [info] > git ls-files --stage -- /root/venvs/karios/app.py [9ms]
+2024-02-26 18:56:04.047 [info] > git show --textconv :venvs/karios/app.py [8ms]
+2024-02-26 18:56:05.042 [info] > git ls-files --stage -- /root/venvs/karios/app.py [6ms]
+2024-02-26 18:56:05.078 [info] > git show --textconv :venvs/karios/app.py [6ms]
+2024-02-26 18:56:28.708 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 18:56:29.726 [info] > git check-ignore -v -z --stdin [8ms]
+2024-02-26 18:56:30.791 [info] > git check-ignore -v -z --stdin [10ms]
+2024-02-26 18:56:35.385 [info] > git check-ignore -v -z --stdin [32ms]
+2024-02-26 18:56:47.865 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 18:57:00.261 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 18:57:00.944 [info] > git check-ignore -v -z --stdin [1964ms]
+2024-02-26 18:57:16.699 [info] > git check-ignore -v -z --stdin [59ms]
+2024-02-26 18:57:21.759 [info] > git check-ignore -v -z --stdin [18ms]
+2024-02-26 18:57:22.353 [info] > git -c user.useConfigOnly=true commit --quiet [65ms]
+2024-02-26 18:57:22.353 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-26 18:57:22.369 [info] > git config --get-all user.name [1ms]
+2024-02-26 18:57:22.394 [info] > git config --get commit.template [14ms]
+2024-02-26 18:57:22.395 [info] No remotes found in the git config file.
+2024-02-26 18:57:22.395 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-02-26 18:57:22.396 [warning] No such branch: master.
+2024-02-26 18:57:24.073 [info] > git status -z -uall [1663ms] (cancelled)
+2024-02-26 18:57:45.523 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 18:57:45.563 [info] > git show --textconv :venvs/karios/app.py [8ms]
+2024-02-26 18:57:49.352 [info] > git -c user.useConfigOnly=true commit --quiet [59ms]
+2024-02-26 18:57:49.352 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-26 18:57:49.368 [info] > git config --get-all user.name [1ms]
+2024-02-26 18:57:49.395 [info] No remotes found in the git config file.
+2024-02-26 18:57:49.395 [info] > git config --get commit.template [14ms]
+2024-02-26 18:57:49.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-26 18:57:49.396 [warning] No such branch: master.
+2024-02-26 18:57:51.166 [info] > git status -z -uall [1759ms] (cancelled)
+2024-02-26 18:57:52.783 [info] > git ls-files --stage -- /root/venvs/karios/app.py [6ms]
+2024-02-26 18:57:52.828 [info] > git show --textconv :venvs/karios/app.py [7ms]
+2024-02-26 18:57:53.791 [info] > git -c user.useConfigOnly=true commit --quiet [56ms]
+2024-02-26 18:57:53.791 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-26 18:57:53.812 [info] > git config --get-all user.name [2ms]
+2024-02-26 18:57:53.845 [info] No remotes found in the git config file.
+2024-02-26 18:57:53.845 [info] > git config --get commit.template [18ms]
+2024-02-26 18:57:53.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-26 18:57:53.847 [warning] No such branch: master.
+2024-02-26 18:57:55.568 [info] > git status -z -uall [1698ms] (cancelled)
+2024-02-26 18:57:57.607 [info] > git ls-files --stage -- /root/venvs/karios/app.py [8ms]
+2024-02-26 18:57:57.646 [info] > git show --textconv :venvs/karios/app.py [5ms]
+2024-02-26 18:57:59.198 [info] > git ls-files --stage -- /root/venvs/karios/app.py [4ms]
+2024-02-26 18:57:59.233 [info] > git show --textconv :venvs/karios/app.py [5ms]
+2024-02-26 18:58:03.204 [info] > git -c user.useConfigOnly=true commit --quiet [63ms]
+2024-02-26 18:58:03.204 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-02-26 18:58:03.228 [info] > git config --get-all user.name [1ms]
+2024-02-26 18:58:03.245 [info] No remotes found in the git config file.
+2024-02-26 18:58:03.266 [info] > git config --get commit.template [22ms]
+2024-02-26 18:58:03.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-26 18:58:03.267 [warning] No such branch: master.
+2024-02-26 18:58:04.820 [info] > git status -z -uall [1531ms] (cancelled)
+2024-02-26 18:58:09.298 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 18:58:09.341 [info] > git show --textconv :venvs/karios/app.py [6ms]
+2024-02-26 18:58:28.590 [info] > git show --textconv :venvs/karios/pyvenv.cfg [31ms]
+2024-02-26 18:58:28.595 [info] > git ls-files --stage -- /root/venvs/karios/pyvenv.cfg [6ms]
+2024-02-26 18:58:29.097 [info] > git show --textconv :venvs/karios/app.py [27ms]
+2024-02-26 18:58:29.101 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 19:00:02.749 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-26 19:00:16.234 [info] > git check-ignore -v -z --stdin [8ms]
+2024-02-26 19:00:16.754 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-26 19:00:19.031 [info] > git show --textconv :venvs/karios/test1.py [21ms]
+2024-02-26 19:00:19.036 [info] > git ls-files --stage -- /root/venvs/karios/test1.py [7ms]
+2024-02-26 19:00:19.446 [info] > git show --textconv :venvs/karios/test.py [20ms]
+2024-02-26 19:00:19.451 [info] > git ls-files --stage -- /root/venvs/karios/test.py [7ms]
+2024-02-26 19:00:19.884 [info] > git show --textconv :venvs/karios/pyvenv.cfg [17ms]
+2024-02-26 19:00:19.888 [info] > git ls-files --stage -- /root/venvs/karios/pyvenv.cfg [6ms]
+2024-02-26 19:00:20.216 [info] > git show --textconv :venvs/karios/app.py [19ms]
+2024-02-26 19:00:20.222 [info] > git ls-files --stage -- /root/venvs/karios/app.py [7ms]
+2024-02-26 19:00:20.749 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-26 19:00:21.636 [info] > git show --textconv :venvs/karios/pyvenv.cfg [23ms]
+2024-02-26 19:00:21.642 [info] > git ls-files --stage -- /root/venvs/karios/pyvenv.cfg [6ms]
+2024-02-26 19:02:01.206 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 19:05:10.212 [info] > git ls-files --stage -- /root/venvs/karios/pyvenv.cfg [6ms]
+2024-02-26 19:05:10.244 [info] > git show --textconv :venvs/karios/pyvenv.cfg [5ms]
+2024-02-26 19:05:11.844 [info] > git ls-files --stage -- /root/venvs/karios/pyvenv.cfg [8ms]
+2024-02-26 19:05:11.876 [info] > git show --textconv :venvs/karios/pyvenv.cfg [6ms]
+2024-02-26 19:05:27.514 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-26 19:05:30.295 [info] > git show --textconv :venvs/karios/app.py [18ms]
+2024-02-26 19:05:30.300 [info] > git ls-files --stage -- /root/venvs/karios/app.py [6ms]
+2024-02-26 19:05:35.126 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-26 19:05:37.145 [info] > git show --textconv :venvs/karios/templates/main.html [20ms]
+2024-02-26 19:05:37.150 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [6ms]
+2024-02-26 19:06:33.509 [info] > git show --textconv :venvs/karios/app.py [20ms]
+2024-02-26 19:06:33.513 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 19:06:41.374 [info] > git show --textconv :venvs/karios/templates/main.html [18ms]
+2024-02-26 19:06:41.378 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [5ms]
+2024-02-26 19:06:43.518 [info] > git show --textconv :venvs/karios/app.py [16ms]
+2024-02-26 19:06:43.521 [info] > git ls-files --stage -- /root/venvs/karios/app.py [4ms]
+2024-02-26 19:06:57.918 [info] > git show --textconv :venvs/karios/templates/main.html [19ms]
+2024-02-26 19:06:57.925 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [7ms]
+2024-02-26 19:07:19.555 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-26 19:08:23.060 [info] > git show --textconv :venvs/karios/templates/calendar.html [20ms]
+2024-02-26 19:08:23.065 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [6ms]
+2024-02-26 19:08:23.766 [info] > git show --textconv :venvs/karios/templates/main.html [22ms]
+2024-02-26 19:08:23.772 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [6ms]
+2024-02-26 19:08:25.976 [info] > git show --textconv :venvs/karios/app.py [18ms]
+2024-02-26 19:08:25.980 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 19:08:52.718 [info] > git show --textconv :venvs/karios/templates/calendar.html [21ms]
+2024-02-26 19:08:52.724 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [6ms]
+2024-02-26 19:08:54.142 [info] > git show --textconv :venvs/karios/templates/main.html [22ms]
+2024-02-26 19:08:54.146 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [6ms]
+2024-02-26 19:08:54.583 [info] > git show --textconv :venvs/karios/app.py [21ms]
+2024-02-26 19:08:54.587 [info] > git ls-files --stage -- /root/venvs/karios/app.py [5ms]
+2024-02-26 19:09:01.018 [info] > git show --textconv :venvs/karios/templates/main.html [23ms]
+2024-02-26 19:09:01.024 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [7ms]
+2024-02-26 19:09:18.002 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [6ms]
+2024-02-26 19:09:18.033 [info] > git show --textconv :venvs/karios/templates/main.html [6ms]
+2024-02-26 19:09:19.731 [info] > git show --textconv :venvs/karios/templates/calendar.html [23ms]
+2024-02-26 19:09:19.735 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [5ms]
+2024-02-26 19:09:20.093 [info] > git show --textconv :venvs/karios/templates/main.html [22ms]
+2024-02-26 19:09:20.098 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [6ms]
+2024-02-26 19:10:04.614 [info] > git show --textconv :venvs/karios/templates/calendar.html [16ms]
+2024-02-26 19:10:04.618 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [5ms]
+2024-02-26 19:10:07.398 [info] > git show --textconv :venvs/karios/app.py [17ms]
+2024-02-26 19:10:07.404 [info] > git ls-files --stage -- /root/venvs/karios/app.py [6ms]
+2024-02-26 19:12:01.160 [info] > git show --textconv :venvs/karios/templates/main.html [20ms]
+2024-02-26 19:12:01.163 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [5ms]
+2024-02-26 19:12:01.658 [info] > git show --textconv :venvs/karios/templates/calendar.html [19ms]
+2024-02-26 19:12:01.665 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [8ms]
+2024-02-26 19:12:02.373 [info] > git show --textconv :venvs/karios/templates/main.html [19ms]
+2024-02-26 19:12:02.379 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [7ms]
+2024-02-26 19:12:03.349 [info] > git show --textconv :venvs/karios/templates/calendar.html [15ms]
+2024-02-26 19:12:03.353 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [5ms]
+2024-02-26 19:12:07.103 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [4ms]
+2024-02-26 19:12:07.136 [info] > git show --textconv :venvs/karios/templates/calendar.html [7ms]
+2024-02-26 19:26:10.530 [info] > git show --textconv :venvs/karios/templates/main.html [18ms]
+2024-02-26 19:26:10.537 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [7ms]
+2024-02-26 19:26:10.849 [info] > git show --textconv :venvs/karios/templates/calendar.html [22ms]
+2024-02-26 19:26:10.855 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [6ms]
+2024-02-26 20:00:31.278 [info] > git check-ignore -v -z --stdin [5ms]

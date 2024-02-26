@@ -1,0 +1,28 @@
+2024-02-26 19:40:30.128 [info] Log level: Info
+2024-02-26 19:40:30.128 [info] Validating found git in: "git"
+2024-02-26 19:40:30.128 [info] Using git "2.20.1" from "git"
+2024-02-26 19:40:30.128 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 19:40:30.128 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-26 19:40:30.128 [info] Open repository: /root
+2024-02-26 19:40:30.128 [info] > git config --get commit.template [9ms]
+2024-02-26 19:40:30.128 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 19:40:30.128 [info] No remotes found in the git config file.
+2024-02-26 19:40:30.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-02-26 19:40:30.128 [warning] No such branch: master.
+2024-02-26 19:40:30.128 [info] > git rev-parse --show-toplevel [10ms]
+2024-02-26 19:40:30.128 [info] > git rev-parse --show-toplevel [60ms]
+2024-02-26 19:40:30.128 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-26 19:40:30.183 [info] > git status -z -uall [146ms] (cancelled)
+2024-02-26 19:40:30.652 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 19:40:31.809 [info] > git check-ignore -v -z --stdin [14ms]
+2024-02-26 19:40:47.882 [info] > git config --get commit.template [13ms]
+2024-02-26 19:40:47.899 [info] No remotes found in the git config file.
+2024-02-26 19:40:47.902 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-02-26 19:40:47.902 [warning] No such branch: master.
+2024-02-26 19:40:49.584 [info] > git status -z -uall [1671ms] (cancelled)
+2024-02-26 19:40:51.237 [info] > git show --textconv :venvs/karios/test1.py [21ms]
+2024-02-26 19:40:51.239 [info] > git ls-files --stage -- /root/venvs/karios/test1.py [5ms]
+2024-02-26 19:41:40.444 [info] > git show --textconv :venvs/karios/app.py [20ms]
+2024-02-26 19:41:40.449 [info] > git ls-files --stage -- /root/venvs/karios/app.py [6ms]
+2024-02-26 19:41:56.722 [info] > git show --textconv :venvs/karios/test2.py [21ms]
+2024-02-26 19:41:56.728 [info] > git ls-files --stage -- /root/venvs/karios/test2.py [7ms]

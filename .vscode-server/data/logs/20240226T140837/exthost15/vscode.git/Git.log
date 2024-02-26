@@ -1,0 +1,58 @@
+2024-02-26 14:43:51.461 [info] Log level: Info
+2024-02-26 14:43:51.461 [info] Validating found git in: "git"
+2024-02-26 14:43:51.461 [info] Using git "2.20.1" from "git"
+2024-02-26 14:43:51.461 [info] > git rev-parse --show-toplevel [51ms]
+2024-02-26 14:43:51.461 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-02-26 14:43:51.461 [info] Open repository: /root/kairos/KairosHackathon
+2024-02-26 14:43:51.461 [info] > git config --get commit.template [3ms]
+2024-02-26 14:43:51.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-26 14:43:51.461 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:43:51.462 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-26 14:43:51.469 [info] > git status -z -uall [3ms]
+2024-02-26 14:43:51.486 [info] > git config --get commit.template [3ms]
+2024-02-26 14:43:51.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-02-26 14:43:51.535 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:43:51.537 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-26 14:43:51.547 [info] > git status -z -uall [3ms]
+2024-02-26 14:43:51.792 [info] > git fetch [362ms]
+2024-02-26 14:43:51.811 [info] > git config --get commit.template [7ms]
+2024-02-26 14:43:51.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-02-26 14:43:51.817 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:43:51.818 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-26 14:43:51.827 [info] > git status -z -uall [3ms]
+2024-02-26 14:43:52.004 [info] > git check-ignore -v -z --stdin [2ms]
+2024-02-26 14:43:52.938 [info] > git config --get commit.template [8ms]
+2024-02-26 14:43:52.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-26 14:43:52.945 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:43:52.946 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-26 14:43:52.954 [info] > git status -z -uall [2ms]
+2024-02-26 14:43:54.744 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-02-26 14:43:54.752 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-02-26 14:48:37.424 [info] > git fetch [358ms]
+2024-02-26 14:48:37.444 [info] > git config --get commit.template [7ms]
+2024-02-26 14:48:37.446 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-26 14:48:37.452 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:48:37.453 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-26 14:48:37.461 [info] > git status -z -uall [2ms]
+2024-02-26 14:48:38.571 [info] > git config --get commit.template [10ms]
+2024-02-26 14:48:38.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-26 14:48:38.577 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:48:38.579 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-26 14:48:38.586 [info] > git status -z -uall [2ms]
+2024-02-26 14:48:39.801 [info] > git show --textconv :README.md [7ms]
+2024-02-26 14:48:39.803 [info] > git ls-files --stage -- /root/kairos/KairosHackathon/README.md [2ms]
+2024-02-26 14:48:39.811 [info] > git cat-file -s a51ed29a65c42ee05e9dbc58ee10d82d959e5d4a [2ms]
+2024-02-26 14:52:25.861 [info] > git fetch [376ms]
+2024-02-26 14:52:25.883 [info] > git config --get commit.template [8ms]
+2024-02-26 14:52:25.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-02-26 14:52:25.891 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:52:25.893 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-02-26 14:52:25.905 [info] > git status -z -uall [3ms]
+2024-02-26 14:52:27.015 [info] > git config --get commit.template [12ms]
+2024-02-26 14:52:27.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-02-26 14:52:27.024 [warning] ENOENT: no such file or directory, open '/root/kairos/KairosHackathon/.git/refs/remotes/origin/main'
+2024-02-26 14:52:27.026 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-02-26 14:52:27.036 [info] > git status -z -uall [2ms]
+2024-02-26 14:52:27.112 [info] > git ls-files --stage -- /root/kairos/KairosHackathon/README.md [2ms]
+2024-02-26 14:52:27.122 [info] > git cat-file -s a51ed29a65c42ee05e9dbc58ee10d82d959e5d4a [2ms]
+2024-02-26 14:52:27.143 [info] > git show --textconv :README.md [3ms]

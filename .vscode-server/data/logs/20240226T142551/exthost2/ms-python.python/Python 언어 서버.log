@@ -11,3 +11,71 @@
 2024-02-26 14:26:44.724 [info] [Info  - 오후 2:26:44] (235474) scanned(2) 14 files over 1 exec env
 2024-02-26 14:26:45.516 [info] [Info  - 오후 2:26:45] (235474) indexed(2) 3 files over 1 exec env
 2024-02-26 14:26:45.580 [info] [Info  - 오후 2:26:45] (235474) Indexing finished(2).
+2024-02-26 14:52:57.509 [info] [Info  - 오후 2:52:57] (235474) Setting pythonPath for service "root": "/usr/bin/python"
+2024-02-26 14:52:57.509 [info] [Info  - 오후 2:52:57] (235474) Setting environmentName for service "root": "2.7.16 (글로벌)"
+2024-02-26 14:52:57.600 [info] [Info  - 오후 2:52:57] (235474) Found 1 source file
+2024-02-26 14:52:57.622 [info] [Info  - 오후 2:52:57] (235474) Setting pythonPath for service "root": "/usr/bin/python"
+2024-02-26 14:52:57.623 [info] [Info  - 오후 2:52:57] (235474) Setting environmentName for service "root": "2.7.16 (글로벌)"
+2024-02-26 14:52:57.708 [info] [Info  - 오후 2:52:57] (235474) Found 1 source file
+2024-02-26 15:03:30.880 [info] [Error - 오후 3:03:30] Server process exited with code 0.
+2024-02-26 15:05:30.754 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 15:05:31.499 [info] [Info  - 오후 3:05:31] (244937) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 15:05:31.500 [info] [Info  - 오후 3:05:31] (244937) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 15:05:31.508 [info] [Info  - 오후 3:05:31] (244937) Starting service instance "root"
+2024-02-26 15:05:31.568 [info] [Info  - 오후 3:05:31] (244937) Setting pythonPath for service "root": "/usr/bin/python"
+2024-02-26 15:05:31.568 [info] [Info  - 오후 3:05:31] (244937) Setting environmentName for service "root": "2.7.16 (글로벌)"
+2024-02-26 15:05:31.678 [info] [Info  - 오후 3:05:31] (244937) Found 1 source file
+2024-02-26 15:05:32.254 [info] [Info  - 오후 3:05:32] (244937) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 15:05:32.260 [info] [Info  - 오후 3:05:32] (244937) Background analysis(1) started
+2024-02-26 15:06:39.981 [info] [Info  - 오후 3:06:39] (244937) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 15:06:39.981 [info] [Info  - 오후 3:06:39] (244937) Indexing(2) started
+2024-02-26 15:06:40.573 [info] [Info  - 오후 3:06:40] (244937) scanned(2) 14 files over 1 exec env
+2024-02-26 15:06:41.267 [info] [Info  - 오후 3:06:41] (244937) indexed(2) 3 files over 1 exec env
+2024-02-26 15:06:41.359 [info] [Info  - 오후 3:06:41] (244937) Indexing finished(2).
+2024-02-26 15:14:32.322 [info] [Info  - 오후 3:14:32] (244937) Found 2 source files
+2024-02-26 15:17:31.038 [info] [Info  - 오후 3:17:31] (244937) Found 1 source file
+2024-02-26 15:31:52.458 [info] [Info  - 오후 3:31:52] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:31:52.459 [info] [Info  - 오후 3:31:52] (244937) Found 1 source file
+2024-02-26 15:32:01.477 [info] [Info  - 오후 3:32:01] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:32:01.479 [info] [Info  - 오후 3:32:01] (244937) Found 1 source file
+2024-02-26 15:37:01.605 [info] [Info  - 오후 3:37:01] (244937) Setting pythonPath for service "root": "/usr/bin/python"
+2024-02-26 15:37:01.611 [info] [Info  - 오후 3:37:01] (244937) Setting environmentName for service "root": "2.7.16 (글로벌)"
+2024-02-26 15:37:01.692 [info] [Info  - 오후 3:37:01] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:37:01.695 [info] [Info  - 오후 3:37:01] (244937) Found 1 source file
+2024-02-26 15:37:01.861 [info] [Info  - 오후 3:37:01] (244937) Setting pythonPath for service "root": "/usr/bin/python"
+2024-02-26 15:37:01.862 [info] [Info  - 오후 3:37:01] (244937) Setting environmentName for service "root": "2.7.16 (글로벌)"
+2024-02-26 15:37:01.962 [info] [Info  - 오후 3:37:01] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:37:01.964 [info] [Info  - 오후 3:37:01] (244937) Found 1 source file
+2024-02-26 15:37:02.583 [info] [Info  - 오후 3:37:02] (244937) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 15:37:02.584 [info] [Info  - 오후 3:37:02] (244937) Indexing(3) started
+2024-02-26 15:37:03.395 [info] [Info  - 오후 3:37:03] (244937) scanned(3) 14 files over 1 exec env
+2024-02-26 15:37:04.178 [info] [Info  - 오후 3:37:04] (244937) indexed(3) 3 files over 1 exec env
+2024-02-26 15:37:04.224 [info] [Info  - 오후 3:37:04] (244937) Indexing finished(3).
+2024-02-26 15:37:17.881 [info] [Info  - 오후 3:37:17] (244937) Setting pythonPath for service "root": "/usr/bin/python3"
+2024-02-26 15:37:17.881 [info] [Info  - 오후 3:37:17] (244937) Setting environmentName for service "root": "3.7.3 (글로벌)"
+2024-02-26 15:37:17.924 [info] [Info  - 오후 3:37:17] (244937) Assuming Python version 3.7
+2024-02-26 15:37:17.995 [info] [Info  - 오후 3:37:17] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:37:17.996 [info] [Info  - 오후 3:37:17] (244937) Found 1 source file
+2024-02-26 15:37:18.648 [info] [Info  - 오후 3:37:18] (244937) Indexer background runner(4) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 15:37:18.648 [info] [Info  - 오후 3:37:18] (244937) Indexing(4) started
+2024-02-26 15:37:19.215 [info] [Info  - 오후 3:37:19] (244937) scanned(4) 10 files over 1 exec env
+2024-02-26 15:37:19.935 [info] [Info  - 오후 3:37:19] (244937) indexed(4) 2 files over 1 exec env
+2024-02-26 15:37:19.982 [info] [Info  - 오후 3:37:19] (244937) Indexing finished(4).
+2024-02-26 15:39:38.553 [info] [Info  - 오후 3:39:38] (244937) Setting pythonPath for service "root": "/root/venvs/karios/bin/python"
+2024-02-26 15:39:38.553 [info] [Info  - 오후 3:39:38] (244937) Setting environmentName for service "root": "3.7.3 (karios venv)"
+2024-02-26 15:39:38.606 [info] [Info  - 오후 3:39:38] (244937) Assuming Python version 3.7
+2024-02-26 15:39:38.674 [info] [Info  - 오후 3:39:38] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:39:38.676 [info] [Info  - 오후 3:39:38] (244937) Found 1 source file
+2024-02-26 15:39:39.370 [info] [Info  - 오후 3:39:39] (244937) Indexer background runner(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 15:39:39.370 [info] [Info  - 오후 3:39:39] (244937) Indexing(5) started
+2024-02-26 15:39:40.023 [info] [Info  - 오후 3:39:40] (244937) scanned(5) 40 files over 1 exec env
+2024-02-26 15:39:40.956 [info] [Info  - 오후 3:39:40] (244937) indexed(5) 32 files over 1 exec env
+2024-02-26 15:39:41.023 [info] [Info  - 오후 3:39:41] (244937) Indexing finished(5).
+2024-02-26 15:45:51.078 [info] [Info  - 오후 3:45:51] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:45:51.082 [info] [Info  - 오후 3:45:51] (244937) Found 2 source files
+2024-02-26 15:46:14.896 [info] [Info  - 오후 3:46:14] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:46:14.898 [info] [Info  - 오후 3:46:14] (244937) Found 2 source files
+2024-02-26 15:46:26.470 [info] [Info  - 오후 3:46:26] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:46:26.473 [info] [Info  - 오후 3:46:26] (244937) Found 2 source files
+2024-02-26 15:47:44.834 [info] [Info  - 오후 3:47:44] (244937) Auto-excluding /root/venvs/karios
+2024-02-26 15:47:44.837 [info] [Info  - 오후 3:47:44] (244937) Found 1 source file

@@ -1,0 +1,83 @@
+2024-02-27 04:04:13.773 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-27 04:04:13.773 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-27 04:04:13.773 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-27 04:04:13.773 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-27 04:04:13.773 [info] Experiment 'pythonTestAdapter' is active
+2024-02-27 04:04:13.818 [info] Default formatter is set to esbenp.prettier-vscode for workspace /root
+2024-02-27 04:04:14.273 [info] Test server listening.
+2024-02-27 04:04:14.492 [info] > C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:04:14.496 [error] [Error: Command failed: C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:Users강민지AppDataLocalProgramsPythonPython311python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\강민지\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-27 04:04:14.503 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:04:14.587 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-27 04:04:16.517 [info] > C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:04:16.519 [error] [Error: Command failed: C:\Users\강민지\AppData\Local\Programs\Python\Python311\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:Users강민지AppDataLocalProgramsPythonPython311python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\강민지\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-27 04:04:16.737 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-27 04:04:16.737 [info] shell: bash
+2024-02-27 04:04:16.785 [info] > python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-27 04:04:16.785 [info] shell: bash
+2024-02-27 04:04:16.810 [info] Send text to terminal: python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-27 04:04:17.962 [info] Starting Pylance language server.
+2024-02-27 04:04:31.999 [info] > conda info --json
+2024-02-27 04:04:32.013 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-02-27 04:04:32.014 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-02-27 04:04:32.014 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-02-27 04:04:32.015 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-02-27 04:04:32.015 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-02-27 04:04:32.047 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:04:32.052 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-27 04:04:32.052 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-27 04:04:32.070 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:04:32.092 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-27 04:09:02.396 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:09:02.860 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:15:24.192 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2024-02-27 04:17:14.243 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:18:07.832 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:19:30.096 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:20:21.210 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:20:49.275 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:20:52.336 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:22:03.417 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:24:27.203 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:24:38.334 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py

@@ -1,0 +1,23 @@
+2024-02-26 23:38:02.436 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2024-02-26 23:38:02.436 [info] 실험 'pythonREPLSmartSend'이(가) 활성 상태입니다.
+2024-02-26 23:38:02.436 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2024-02-26 23:38:02.436 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2024-02-26 23:38:02.911 [info] Test server listening.
+2024-02-26 23:38:02.929 [info] > C:\Anaconda\anaconda\envs\spyder\python.exe -c "import sys;print(sys.executable)"
+2024-02-26 23:38:02.939 [error] [Error: Command failed: C:\Anaconda\anaconda\envs\spyder\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:Anacondaanacondaenvsspyderpython.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Anaconda\\anaconda\\envs\\spyder\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-02-26 23:38:02.968 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 23:38:02.968 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 23:38:04.546 [info] Pylance 언어 서버를 시작하는 중입니다.

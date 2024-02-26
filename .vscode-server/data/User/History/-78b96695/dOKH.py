@@ -1,0 +1,8 @@
+class Category:
+    def __init__(self):
+        self.date=[]
+
+    def filter(self, Dict):
+        self.date=list(Dict.keys())
+        print(self.date[0])
+       # return self.result

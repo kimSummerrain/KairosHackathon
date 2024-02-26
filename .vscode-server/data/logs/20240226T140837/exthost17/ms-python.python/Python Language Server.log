@@ -1,0 +1,10 @@
+2024-02-26 14:53:50.311 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 14:53:51.083 [info] [Info  - 오후 2:53:51] (243577) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 14:53:51.084 [info] [Info  - 오후 2:53:51] (243577) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:53:51.084 [info] [Info  - 오후 2:53:51] (243577) Starting service instance "kairos"
+2024-02-26 14:53:51.140 [info] [Info  - 오후 2:53:51] (243577) Setting environmentName for service "kairos": "C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2024-02-26 14:53:51.225 [info] [Info  - 오후 2:53:51] (243577) Found 1 source file
+2024-02-26 14:53:51.679 [info] [Info  - 오후 2:53:51] (243577) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 14:53:51.682 [info] [Info  - 오후 2:53:51] (243577) Background analysis(1) started
+2024-02-26 14:53:58.245 [info] [Info  - 오후 2:53:58] (243577) Setting environmentName for service "kairos": "C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe"
+2024-02-26 14:53:58.315 [info] [Info  - 오후 2:53:58] (243577) Found 1 source file

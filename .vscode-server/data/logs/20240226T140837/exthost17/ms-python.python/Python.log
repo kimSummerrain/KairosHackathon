@@ -1,0 +1,80 @@
+2024-02-26 14:53:46.901 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 14:53:46.901 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 14:53:46.901 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-26 14:53:46.901 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 14:53:46.901 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 14:53:46.901 [info] Default formatter is set to null for workspace /root/kairos
+2024-02-26 14:53:46.901 [info] Test server listening.
+2024-02-26 14:53:46.901 [info] > conda info --json
+2024-02-26 14:53:46.935 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-02-26 14:53:46.983 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-02-26 14:53:46.983 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-02-26 14:53:46.992 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:53:46.998 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:53:47.065 [info] > /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:53:47.069 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:53:47.069 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-26 14:53:47.076 [info] > /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:53:47.097 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-02-26 14:53:47.097 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:53:47.097 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:53:47.097 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 14:53:49.011 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:53:49.012 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:53:49.033 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+2024-02-26 14:53:49.034 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -c "import sys;print(sys.executable)"'
+}
+2024-02-26 14:53:51.102 [info] Starting Pylance language server.

@@ -1,0 +1,327 @@
+2024-02-26 18:33:22.003 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 18:33:22.003 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 18:33:22.003 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-26 18:33:22.003 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 18:33:22.003 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 18:33:22.003 [info] Default formatter is set to null for workspace /root
+2024-02-26 18:33:22.003 [info] Test server listening.
+2024-02-26 18:33:22.287 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:33:22.293 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 18:33:22.308 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:33:22.382 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-26 18:33:24.342 [info] > C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:33:24.344 [error] [Error: Command failed: C:\Users\doeun\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersdoeunAppDataLocalMicrosoftWindowsAppspython3.11.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\doeun\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 18:33:24.604 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:33:24.604 [info] shell: bash
+2024-02-26 18:33:24.652 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:33:24.652 [info] shell: bash
+2024-02-26 18:33:24.674 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 18:33:25.891 [info] Starting Pylance language server.
+2024-02-26 18:33:54.674 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-26 19:07:15.766 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:07:24.502 [info] Send text to terminal:  /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45531 -- /root/venvs/karios/test1.py 
+2024-02-26 19:07:54.460 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36467 -- /root/venvs/karios/test1.py 
+2024-02-26 19:13:25.185 [info] Send text to terminal:  /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57309 -- /root/venvs/karios/test2.py 
+2024-02-26 19:13:47.410 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41615 -- /root/venvs/karios/test2.py 
+2024-02-26 19:13:52.741 [info] CreateEnv Trigger - Skipping for /root/venvs/karios/test2.py
+2024-02-26 19:13:52.743 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:14:57.527 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:15:00.982 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:37:40.963 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:38:10.141 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:38:10.947 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:38:42.065 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:39:30.481 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:41:47.477 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:42:14.141 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:42:31.425 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:42:42.828 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:42:45.659 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:43:00.120 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:43:00.480 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:44:41.295 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:44:41.976 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:46:50.262 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:46:52.675 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:49:36.924 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:49:37.217 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:49:49.532 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:51:51.918 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:52:30.869 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:56:04.083 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:56:04.644 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:56:34.229 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:56:34.472 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:56:49.605 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:56:50.450 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:57:03.721 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:57:05.045 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:57:14.584 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:57:15.722 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:57:37.280 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:57:37.986 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:59:28.478 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 19:59:49.543 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 19:59:50.443 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 20:00:09.545 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 20:00:36.512 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:01:28.569 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:01:28.762 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:01:34.483 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:01:51.845 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:01:53.125 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:02:32.531 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:02:32.543 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59533 -- /root/venvs/karios/test2.py 
+2024-02-26 20:02:43.549 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:02:43.791 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:02:57.658 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:02:57.883 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:03:08.086 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:03:15.965 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:03:16.722 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50129 -- /root/venvs/karios/test2.py 
+2024-02-26 20:04:32.262 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:04:32.265 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41755 -- /root/venvs/karios/test2.py 
+2024-02-26 20:05:27.973 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:05:27.981 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40553 -- /root/venvs/karios/test2.py 
+2024-02-26 20:05:36.591 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:05:36.648 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49737 -- /root/venvs/karios/test2.py 
+2024-02-26 20:05:45.605 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:05:45.607 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36227 -- /root/venvs/karios/test2.py 
+2024-02-26 20:06:45.137 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:06:45.208 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 37173 -- /root/venvs/karios/test2.py 
+2024-02-26 20:07:33.794 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:07:34.662 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40199 -- /root/venvs/karios/test2.py 
+2024-02-26 20:26:42.690 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:26:42.929 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:28:27.668 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:28:28.554 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 39851 -- /root/venvs/karios/test2.py 
+2024-02-26 20:28:49.226 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:28:53.968 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:36:07.013 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:36:07.245 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:40:54.006 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 47589 -- /root/venvs/karios/test1.py 
+2024-02-26 20:42:59.327 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:43:39.629 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:44:08.955 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44431 -- /root/venvs/karios/test2.py 
+2024-02-26 20:46:49.058 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:46:49.073 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 51829 -- /root/venvs/karios/test2.py 
+2024-02-26 20:47:13.618 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:47:13.717 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44697 -- /root/venvs/karios/test2.py 
+2024-02-26 20:47:27.556 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:48:10.659 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:48:10.803 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 48347 -- /root/venvs/karios/test2.py 
+2024-02-26 20:52:21.080 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41917 -- /root/venvs/karios/test1.py 
+2024-02-26 21:22:24.164 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:24:34.199 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:24:42.534 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:24:44.142 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 21:24:53.900 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 21:24:56.023 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 21:27:47.631 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:28:02.613 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:28:23.347 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:28:25.701 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 21:28:27.095 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 21:31:05.640 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 21:31:20.209 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:05:23.110 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_doeun.py
+2024-02-26 22:05:57.874 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_doeun.py
+2024-02-26 22:06:00.248 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 51817 -- /root/venvs/karios/test_doeun.py 
+2024-02-26 22:06:47.710 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_doeun.py
+2024-02-26 22:06:48.549 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53851 -- /root/venvs/karios/test_doeun.py 
+2024-02-26 22:07:03.218 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_doeun.py
+2024-02-26 22:07:03.959 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34215 -- /root/venvs/karios/test_doeun.py 
+2024-02-26 22:09:35.320 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:09:35.555 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:09:51.918 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:09:53.203 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:09:57.873 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:10:11.669 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:10:11.791 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52067 -- /root/venvs/karios/test2.py 
+2024-02-26 22:10:27.941 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 22:10:34.525 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:10:39.813 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 22:11:17.853 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:11:18.513 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:11:18.684 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:11:28.071 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:11:28.303 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:11:28.620 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:11:28.833 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 22:12:15.974 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 22:13:03.912 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:13:05.855 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 22:13:07.355 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45853 -- /root/venvs/karios/DBtest.py 
+2024-02-26 22:13:37.862 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:13:39.387 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 48241 -- /root/venvs/karios/DBtest.py 
+2024-02-26 22:14:02.031 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:14:02.108 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 47681 -- /root/venvs/karios/DBtest.py 
+2024-02-26 22:15:56.166 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:15:59.172 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49843 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:16:15.879 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:16:16.042 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36527 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:17:22.963 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:17:23.087 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 39429 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:18:11.896 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:18:15.914 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/doeun_test.py
+2024-02-26 22:18:21.858 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34419 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:19:32.993 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:19:33.164 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 51399 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:19:49.610 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 22:19:49.776 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 33077 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 22:20:34.444 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:20:34.542 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60665 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:38:11.901 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54691 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 23:41:05.155 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:41:05.327 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50595 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:41:37.858 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:41:37.969 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56723 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:41:51.947 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:41:52.000 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 37281 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:43:42.573 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:43:42.760 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50411 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:44:06.672 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:44:06.747 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36889 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:51:08.747 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:51:08.852 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 33165 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:51:28.921 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 23:51:29.013 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45079 -- /root/venvs/karios/DBtest.py 
+2024-02-26 23:59:12.449 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-26 23:59:12.601 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35579 -- /root/venvs/karios/doeun_test.py 
+2024-02-26 23:59:59.490 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 00:00:00.033 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34281 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:11:15.829 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 00:11:17.264 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57937 -- /root/venvs/karios/category.py 
+2024-02-27 00:11:34.622 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46687 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:12:12.212 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:12:12.284 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60875 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:12:22.666 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:12:22.791 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42869 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:12:39.835 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:12:39.916 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41555 -- /root/venvs/karios/category.py 
+2024-02-27 00:12:44.567 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56045 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:13:01.167 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:13:01.289 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35211 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:13:48.862 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:13:48.980 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 39989 -- /root/venvs/karios/category.py 
+2024-02-27 00:13:51.303 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57445 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:14:20.925 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:14:21.212 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49619 -- /root/venvs/karios/category.py 
+2024-02-27 00:14:23.382 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 38209 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:14:37.591 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:14:37.762 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46385 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:32:07.457 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:32:07.790 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35575 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:32:39.358 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:32:39.434 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53487 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:33:04.512 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:33:04.699 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57347 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:34:24.170 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:34:24.347 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60783 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:34:35.634 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 00:34:35.757 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44211 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:35:14.848 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:35:15.058 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56439 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:56:56.060 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:56:56.221 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 33013 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 00:59:36.425 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 00:59:36.575 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41409 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:00:37.695 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:00:37.897 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44567 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:05:14.746 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:05:14.865 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44905 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:08:44.201 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:08:44.333 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45493 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:09:09.330 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:09:09.494 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 43419 -- /root/venvs/karios/category.py 
+2024-02-27 01:09:12.716 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 39175 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:09:50.216 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:09:50.304 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 43629 -- /root/venvs/karios/category.py 
+2024-02-27 01:09:53.719 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 58883 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:20:14.485 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:20:14.610 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42423 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:21:43.359 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:21:43.436 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36243 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:28:06.556 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:28:06.598 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 55493 -- /root/venvs/karios/category.py 
+2024-02-27 01:28:08.707 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35813 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:29:04.755 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:29:04.935 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41255 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:30:45.943 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:30:46.178 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44615 -- /root/venvs/karios/category.py 
+2024-02-27 01:30:48.477 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57035 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:31:04.866 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:31:04.992 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42893 -- /root/venvs/karios/category.py 
+2024-02-27 01:31:06.874 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42753 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:31:23.580 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:31:23.646 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44575 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:32:16.535 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:32:16.625 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49019 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:32:38.844 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:32:38.902 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 32963 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:33:32.736 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:33:32.871 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 54083 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:35:20.431 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:35:20.514 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45795 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:35:31.703 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:35:31.849 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42173 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:36:21.542 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:36:21.761 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53645 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:36:36.499 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45465 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:37:00.237 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:37:00.563 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 38029 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:37:52.371 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 01:37:52.480 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50043 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:39:40.707 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:39:40.763 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57859 -- /root/venvs/karios/category.py 
+2024-02-27 01:39:43.352 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41759 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:40:06.736 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:40:06.844 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46151 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:40:40.630 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:40:40.759 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57011 -- /root/venvs/karios/category.py 
+2024-02-27 01:40:42.916 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59563 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:41:55.030 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:41:55.218 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 48917 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:42:17.166 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:42:17.222 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52273 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:42:55.376 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 01:42:56.683 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/category.py
+2024-02-27 01:51:11.708 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_practice.py
+2024-02-27 01:51:12.880 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44357 -- /root/venvs/karios/doeun_practice.py 
+2024-02-27 01:51:25.062 [info] Discover tests for workspace name: root - uri: /root/ex.py
+2024-02-27 01:51:40.450 [info] Discover tests for workspace name: root - uri: /root/ex.py
+2024-02-27 01:52:32.371 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59773 -- /root/ex.py 
+2024-02-27 01:52:56.164 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34553 -- /root/venvs/karios/doeun_practice.py 
+2024-02-27 01:53:05.444 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 39459 -- /root/venvs/karios/doeun_practice.py 
+2024-02-27 02:06:19.175 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:06:20.308 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44997 -- /root/venvs/karios/test_M1.py 
+2024-02-27 02:06:38.365 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 55581 -- /root/venvs/karios/test_M1.py 

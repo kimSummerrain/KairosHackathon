@@ -1,0 +1,11 @@
+2024-02-26 18:43:23.617 [info] Extension host with pid 256883 started
+2024-02-26 18:43:23.665 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-26 18:43:23.667 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-02-26 18:43:23.810 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-26 18:43:23.810 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 18:43:24.071 [info] Eager extensions activated
+2024-02-26 18:43:24.071 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:43:24.072 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:43:24.072 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:44:16.966 [info] Extension host terminating: received terminate message from renderer
+2024-02-26 18:44:16.994 [info] Extension host with pid 256883 exiting with code 0

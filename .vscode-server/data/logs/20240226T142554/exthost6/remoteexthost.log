@@ -1,0 +1,33 @@
+2024-02-26 18:45:11.094 [info] Extension host with pid 257135 started
+2024-02-26 18:45:11.113 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': Lock acquired.
+2024-02-26 18:45:11.273 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-26 18:45:11.274 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-26 18:45:11.274 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:45:11.275 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:45:12.178 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:45:12.587 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-26 18:45:12.588 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-02-26 18:45:12.677 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-26 18:45:12.677 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 18:45:12.913 [info] Eager extensions activated
+2024-02-26 18:45:12.913 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:45:12.914 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:45:12.914 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:45:15.229 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-02-26 18:45:17.716 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2024-02-26 18:45:19.678 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2024-02-26 20:35:38.166 [error] Error: Traceback (most recent call last):
+  File "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/normalizeSelection.py", line 289, in <module>
+
+	at s (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:226786)
+	at Socket.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:227082)
+	at Socket.emit (node:events:514:28)
+	at addChunk (node:internal/streams/readable:324:12)
+	at readableAddChunk (node:internal/streams/readable:297:9)
+	at Readable.push (node:internal/streams/readable:234:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2024-02-26 20:55:35.859 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-02-27 03:44:40.901 [error] No tree item with id '0/0:Clinet_information/0:client_information/0:Query' found.
+2024-02-27 03:44:45.816 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-02-27 04:15:23.874 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-02-27 04:15:23.875 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

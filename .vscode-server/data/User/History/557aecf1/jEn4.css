@@ -1,0 +1,108 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#calendar {
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+a.fc-daygrid-day-number {
+    color: black;
+    text-decoration: none;
+}
+
+a.fc-col-header-cell-cushion {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+
+.rounded-rectangle {
+    width: 340px;
+    /* 직사각형의 너비 */
+    height: 210px;
+    /* 직사각형의 높이 */
+    background-color: #ffffff;
+    /* 배경색 */
+    border-radius: 20px;
+    /* 꼭짓점을 둥글게 하는 정도 */
+    margin: 0px auto 0;
+    /* rectangle과 겹치도록 마진 조정 */
+    padding: 20px;
+    /* 내부 여백 */
+    text-align: center;
+    /* 내용을 가운데 정렬 */
+    border: 2px solid #333;
+    /* 테두리의 두께와 색상 */
+    position: relative;
+    /* 포지션을 상대위치로 설정하여 겹치게 함 */
+    /* z-index: -1; */
+    /* 겹치는 요소의 순서를 지정 */
+}
+
+
+
+.text-start {
+    font-size: 24px;
+}
+
+.text-second {
+    font-size: 15px;
+}
+
+/* 이미지 스타일 */
+.container-img {
+    position: relative;
+    /* 상대 위치 지정 */
+    display: inline-block;
+    /* 인라인 블록 요소로 지정하여 텍스트와 이미지를 함께 표시 */
+}
+
+.container-img img {
+    width: 350px;
+    /* 이미지 너비 350px로 고정 */
+    height: 700px;
+    /* 이미지 높이 750px로 고정 */
+    border-radius: 20px;
+    /* 둥근 모서리 적용 */
+}
+
+.text-overlay {
+    position: absolute;
+    /* 절대 위치 지정 */
+    top: 0;
+    /* 위에서부터 위치 지정 */
+    left: 0;
+    /* 왼쪽에서부터 위치 지정 */
+    width: 100%;
+    /* 부모 요소의 너비와 동일하게 지정 */
+    height: 100%;
+    /* 부모 요소의 높이와 동일하게 지정 */
+    display: flex;
+    /* Flexbox 사용하여 내부 요소를 가로로 정렬 */
+    flex-direction: column;
+    /* 세로 방향으로 요소 정렬 */
+    justify-content: center;
+    /* 수직 가운데 정렬 */
+    align-items: center;
+    /* 수평 가운데 정렬 */
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.margin-top {
+    margin-top: 240px;
+}

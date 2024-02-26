@@ -1,0 +1,83 @@
+2024-02-26 18:33:25.114 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 18:33:25.872 [info] [Info  - 오후 6:33:25] (255613) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 18:33:25.873 [info] [Info  - 오후 6:33:25] (255613) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 18:33:25.873 [info] [Info  - 오후 6:33:25] (255613) Starting service instance "root"
+2024-02-26 18:33:25.922 [info] [Info  - 오후 6:33:25] (255613) Setting pythonPath for service "root": "/root/venvs/karios/bin/python"
+2024-02-26 18:33:25.922 [info] [Info  - 오후 6:33:25] (255613) Setting environmentName for service "root": "3.7.3 (karios venv)"
+2024-02-26 18:33:25.959 [info] [Info  - 오후 6:33:25] (255613) Assuming Python version 3.7
+2024-02-26 18:33:26.057 [info] [Info  - 오후 6:33:26] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 18:33:26.059 [info] [Info  - 오후 6:33:26] (255613) No source files found.
+2024-02-26 18:33:26.581 [info] [Info  - 오후 6:33:26] (255613) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 18:33:26.585 [info] [Info  - 오후 6:33:26] (255613) Background analysis(1) started
+2024-02-26 18:33:26.806 [info] [Info  - 오후 6:33:26] (255613) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 18:33:26.807 [info] [Info  - 오후 6:33:26] (255613) Indexing(2) started
+2024-02-26 18:33:27.471 [info] [Info  - 오후 6:33:27] (255613) scanned(2) 40 files over 1 exec env
+2024-02-26 18:33:28.329 [info] [Info  - 오후 6:33:28] (255613) indexed(2) 32 files over 1 exec env
+2024-02-26 18:33:28.394 [info] [Info  - 오후 6:33:28] (255613) Indexing finished(2).
+2024-02-26 19:00:02.414 [info] [Info  - 오후 7:00:02] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:00:02.420 [info] [Info  - 오후 7:00:02] (255613) Found 1 source file
+2024-02-26 19:00:17.422 [info] [Info  - 오후 7:00:17] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:00:17.426 [info] [Info  - 오후 7:00:17] (255613) Found 1 source file
+2024-02-26 19:00:21.462 [info] [Info  - 오후 7:00:21] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:00:21.463 [info] [Info  - 오후 7:00:21] (255613) Found 1 source file
+2024-02-26 19:04:38.660 [info] [Info  - 오후 7:04:38] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:04:38.666 [info] [Info  - 오후 7:04:38] (255613) Found 3 source files
+2024-02-26 19:04:44.549 [info] [Info  - 오후 7:04:44] (255613) Indexer background runner(3) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (refresh)
+2024-02-26 19:04:44.549 [info] [Info  - 오후 7:04:44] (255613) Indexing(3) started
+2024-02-26 19:04:45.387 [info] [Info  - 오후 7:04:45] (255613) scanned(3) 41 files over 1 exec env
+2024-02-26 19:04:46.472 [info] [Info  - 오후 7:04:46] (255613) indexed(3) 33 files over 1 exec env
+2024-02-26 19:04:46.541 [info] [Info  - 오후 7:04:46] (255613) Indexing finished(3).
+2024-02-26 19:52:55.394 [info] [Info  - 오후 7:52:55] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:52:55.399 [info] [Info  - 오후 7:52:55] (255613) Found 3 source files
+2024-02-26 19:53:00.913 [info] [Info  - 오후 7:53:00] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:53:00.918 [info] [Info  - 오후 7:53:00] (255613) Found 3 source files
+2024-02-26 19:53:06.404 [info] [Info  - 오후 7:53:06] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:53:06.410 [info] [Info  - 오후 7:53:06] (255613) Found 3 source files
+2024-02-26 19:56:04.442 [info] [Info  - 오후 7:56:04] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:56:04.446 [info] [Info  - 오후 7:56:04] (255613) Found 3 source files
+2024-02-26 19:59:28.965 [info] [Info  - 오후 7:59:28] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 19:59:28.973 [info] [Info  - 오후 7:59:28] (255613) Found 4 source files
+2024-02-26 20:00:13.063 [info] [Info  - 오후 8:00:13] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 20:00:13.070 [info] [Info  - 오후 8:00:13] (255613) Found 4 source files
+2024-02-26 20:00:19.032 [info] [Info  - 오후 8:00:19] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 20:00:19.039 [info] [Info  - 오후 8:00:19] (255613) Found 4 source files
+2024-02-26 20:28:16.636 [info] [Info  - 오후 8:28:16] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 20:28:16.642 [info] [Info  - 오후 8:28:16] (255613) Found 4 source files
+2024-02-26 20:28:22.406 [info] [Info  - 오후 8:28:22] (255613) Indexer background runner(4) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (refresh)
+2024-02-26 20:28:22.407 [info] [Info  - 오후 8:28:22] (255613) Indexing(4) started
+2024-02-26 20:28:23.092 [info] [Info  - 오후 8:28:23] (255613) scanned(4) 43 files over 1 exec env
+2024-02-26 20:28:24.035 [info] [Info  - 오후 8:28:24] (255613) indexed(4) 35 files over 1 exec env
+2024-02-26 20:28:24.100 [info] [Info  - 오후 8:28:24] (255613) Indexing finished(4).
+2024-02-26 21:23:07.414 [info] [Info  - 오후 9:23:07] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 21:23:07.419 [info] [Info  - 오후 9:23:07] (255613) Found 4 source files
+2024-02-26 21:23:08.397 [info] [Info  - 오후 9:23:08] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 21:23:08.403 [info] [Info  - 오후 9:23:08] (255613) Found 4 source files
+2024-02-26 21:23:10.260 [info] [Info  - 오후 9:23:10] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 21:23:10.264 [info] [Info  - 오후 9:23:10] (255613) Found 4 source files
+2024-02-26 21:23:11.244 [info] [Info  - 오후 9:23:11] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 21:23:11.251 [info] [Info  - 오후 9:23:11] (255613) Found 4 source files
+2024-02-26 21:23:17.394 [info] [Info  - 오후 9:23:17] (255613) Indexer background runner(5) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (refresh)
+2024-02-26 21:23:17.395 [info] [Info  - 오후 9:23:17] (255613) Indexing(5) started
+2024-02-26 21:23:18.055 [info] [Info  - 오후 9:23:18] (255613) scanned(5) 131 files over 1 exec env
+2024-02-26 21:23:19.978 [info] [Info  - 오후 9:23:19] (255613) indexed(5) 104 files over 1 exec env
+2024-02-26 21:23:20.092 [info] [Info  - 오후 9:23:20] (255613) Indexing finished(5).
+2024-02-26 22:05:12.500 [info] [Info  - 오후 10:05:12] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 22:05:12.510 [info] [Info  - 오후 10:05:12] (255613) Found 4 source files
+2024-02-26 22:05:14.970 [info] [Info  - 오후 10:05:14] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 22:05:14.980 [info] [Info  - 오후 10:05:14] (255613) Found 4 source files
+2024-02-26 22:05:24.492 [info] [Info  - 오후 10:05:24] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 22:05:24.501 [info] [Info  - 오후 10:05:24] (255613) Found 4 source files
+2024-02-26 22:09:11.515 [info] [Info  - 오후 10:09:11] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 22:09:11.526 [info] [Info  - 오후 10:09:11] (255613) Found 3 source files
+2024-02-26 22:15:47.689 [info] [Info  - 오후 10:15:47] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 22:15:47.700 [info] [Info  - 오후 10:15:47] (255613) Found 4 source files
+2024-02-26 23:40:09.309 [info] [Info  - 오후 11:40:09] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 23:40:09.310 [info] [Info  - 오후 11:40:09] (255613) Found 4 source files
+2024-02-26 23:40:35.051 [info] [Info  - 오후 11:40:35] (255613) Auto-excluding /root/venvs/karios
+2024-02-26 23:40:35.064 [info] [Info  - 오후 11:40:35] (255613) Found 4 source files
+2024-02-27 01:43:30.325 [info] [Info  - 오전 1:43:30] (255613) Auto-excluding /root/venvs/karios
+2024-02-27 01:43:30.331 [info] [Info  - 오전 1:43:30] (255613) Found 4 source files
+2024-02-27 01:49:41.540 [info] [Info  - 오전 1:49:41] (255613) Auto-excluding /root/venvs/karios
+2024-02-27 01:49:41.551 [info] [Info  - 오전 1:49:41] (255613) Found 5 source files
+2024-02-27 01:53:29.391 [info] [Info  - 오전 1:53:29] (255613) Auto-excluding /root/venvs/karios
+2024-02-27 01:53:29.402 [info] [Info  - 오전 1:53:29] (255613) Found 4 source files

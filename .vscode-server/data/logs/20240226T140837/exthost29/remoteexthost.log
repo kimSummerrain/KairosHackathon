@@ -1,0 +1,125 @@
+2024-02-26 18:47:46.911 [info] Extension host with pid 257937 started
+2024-02-26 18:47:46.911 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock'
+2024-02-26 18:47:46.915 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 18:47:46.918 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8/vscode.lock': The lock does not look stale, elapsed: 568 ms, giving up.
+2024-02-26 18:47:46.918 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock'
+2024-02-26 18:47:46.919 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 18:47:46.919 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-1/vscode.lock': The lock does not look stale, elapsed: 296 ms, giving up.
+2024-02-26 18:47:46.920 [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock'
+2024-02-26 18:47:46.920 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-26 18:47:46.920 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-2/vscode.lock': The lock does not look stale, elapsed: 60 ms, giving up.
+2024-02-26 18:47:46.925 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock': Lock acquired.
+2024-02-26 18:47:46.952 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:47:46.953 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:47:46.953 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-26 18:47:47.948 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-02-26 18:47:48.487 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-26 18:47:48.488 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-02-26 18:47:48.637 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-26 18:47:48.638 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-26 18:47:49.004 [info] Eager extensions activated
+2024-02-26 18:47:49.005 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:47:49.005 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:47:49.006 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2024-02-26 18:47:49.969 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-02-26 18:47:56.657 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-02-26 18:47:58.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-02-26 18:57:22.723 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2024-02-26 18:57:49.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2024-02-26 18:57:54.157 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2024-02-26 18:58:03.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001
+2024-02-26 19:05:36.852 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-02-26 19:11:24.193 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-02-26 20:04:57.899 [info] Extension host terminating: received terminate message from renderer
+2024-02-26 20:04:57.901 [info] Lock '/root/.vscode-server/data/User/workspaceStorage/20aed7b36bd133173bd205d2d1d7daa8-3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-26 20:04:57.954 [error] Canceled: Canceled
+	at new f (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at g.I [as value] (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:927298)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:943089)
+	at /root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:16543)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-02-26 20:04:57.954 [error] Canceled: Canceled
+	at new f (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:140:45069)
+	at d.U (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:5557)
+	at T.<computed>.O.charCodeAt.T.<computed> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:147:3008)
+	at s.g (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174704)
+	at s.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at m.registerCommand.description (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:173466)
+	at s.h (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:175243)
+	at s.g (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174235)
+	at s.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:150:174142)
+	at Object.executeCommand (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:21634)
+	at set b [as b] (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/github/dist/extension.js:2:322364)
+	at /root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/github/dist/extension.js:2:323005
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:1018251)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at Object.m [as dispose] (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:943089)
+	at /root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947930
+	at Array.forEach (<anonymous>)
+	at p.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:947916)
+	at c.<anonymous> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3650)
+	at c.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at c.<anonymous> (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/main.js:2:929310)
+	at c.dispose (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:148:3747)
+	at o (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+	at g.cb (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:9874)
+	at /root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7808
+	at Array.map (<anonymous>)
+	at g.Y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:7795)
+	at g.terminate (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:156:8068)
+	at o.terminate (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:160:1513)
+	at t (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:9950)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:173:7997)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:14073)
+	at s.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:17138)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:16543)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at g.acceptChunk (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11847)
+	at g.value (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:105:11134)
+	at r.y (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at r.fire (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.z (/root/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/workbench/api/node/extensionHostProcess.js:170:19748) setContext undefined
+2024-02-26 20:04:57.958 [info] Extension host with pid 257937 exiting with code 0

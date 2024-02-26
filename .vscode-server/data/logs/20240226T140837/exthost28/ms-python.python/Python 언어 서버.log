@@ -1,0 +1,16 @@
+2024-02-26 18:47:30.511 [info] (Client) Pylance async client (2024.2.2) started with python extension (2024.0.1)
+2024-02-26 18:47:31.333 [info] [Info  - 오후 6:47:31] (257824) Pylance language server 2024.2.2 (pyright version 1.1.348, commit cfb1de0c) starting
+2024-02-26 18:47:31.333 [info] [Info  - 오후 6:47:31] (257824) Server root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 18:47:31.333 [info] [Info  - 오후 6:47:31] (257824) Starting service instance "root"
+2024-02-26 18:47:31.398 [info] [Info  - 오후 6:47:31] (257824) Setting pythonPath for service "root": "/root/venvs/karios/bin/python"
+2024-02-26 18:47:31.398 [info] [Info  - 오후 6:47:31] (257824) Setting environmentName for service "root": "3.7.3 (karios venv)"
+2024-02-26 18:47:31.436 [info] [Info  - 오후 6:47:31] (257824) Assuming Python version 3.7
+2024-02-26 18:47:31.523 [info] [Info  - 오후 6:47:31] (257824) Auto-excluding /root/venvs/karios
+2024-02-26 18:47:31.524 [info] [Info  - 오후 6:47:31] (257824) No source files found.
+2024-02-26 18:47:31.990 [info] [Info  - 오후 6:47:31] (257824) Background analysis(1) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist
+2024-02-26 18:47:31.992 [info] [Info  - 오후 6:47:31] (257824) Background analysis(1) started
+2024-02-26 18:47:32.302 [info] [Info  - 오후 6:47:32] (257824) Indexer background runner(2) root directory: file:///root/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2/dist (index)
+2024-02-26 18:47:32.302 [info] [Info  - 오후 6:47:32] (257824) Indexing(2) started
+2024-02-26 18:47:32.957 [info] [Info  - 오후 6:47:32] (257824) scanned(2) 40 files over 1 exec env
+2024-02-26 18:47:33.853 [info] [Info  - 오후 6:47:33] (257824) indexed(2) 32 files over 1 exec env
+2024-02-26 18:47:33.916 [info] [Info  - 오후 6:47:33] (257824) Indexing finished(2).

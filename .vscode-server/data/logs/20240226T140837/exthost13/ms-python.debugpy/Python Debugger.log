@@ -1,2 +1,9 @@
 2024-02-26 14:32:56.519 [info] Name: Python Debugger
 2024-02-26 14:32:56.519 [info] Module: debugpy
+2024-02-26 15:44:16.853 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:06:19.338 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:51:52.162 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:52:15.821 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:52:22.488 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:53:21.802 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter
+2024-02-27 01:54:01.212 [info] DAP Server launched with command: /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter

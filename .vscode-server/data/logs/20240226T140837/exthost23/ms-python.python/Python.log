@@ -1,0 +1,62 @@
+2024-02-26 18:40:32.884 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 18:40:32.884 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 18:40:32.884 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 18:40:32.884 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 18:40:32.884 [info] Default formatter is set to null for workspace /root
+2024-02-26 18:40:32.884 [info] Test server listening.
+2024-02-26 18:40:32.942 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:40:32.967 [info] Python interpreter path: /usr/bin/python3
+2024-02-26 18:40:32.992 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-26 18:40:34.491 [info] Starting Pylance language server.
+2024-02-26 18:41:49.108 [info] > conda info --json
+2024-02-26 18:41:49.128 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-02-26 18:41:49.148 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:41:49.149 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-02-26 18:41:49.149 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-02-26 18:41:49.150 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-02-26 18:41:49.150 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-02-26 18:41:49.181 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:41:49.208 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 18:41:49.208 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-26 18:41:49.228 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:42:00.445 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 18:42:00.495 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:42:00.495 [info] shell: bash
+2024-02-26 18:42:00.551 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:42:00.551 [info] shell: bash
+2024-02-26 18:42:00.572 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 18:42:30.574 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-26 22:54:05.039 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 22:54:05.039 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 22:54:05.039 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 22:54:05.039 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 22:54:05.091 [info] Default formatter is set to null for workspace /root
+2024-02-26 22:54:05.566 [info] Test server listening.
+2024-02-26 22:54:05.578 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-26 22:54:06.836 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 22:54:06.836 [info] shell: bash
+2024-02-26 22:54:06.912 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 22:54:06.912 [info] shell: bash
+2024-02-26 22:54:06.935 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 22:54:08.049 [info] Starting Pylance language server.
+2024-02-26 22:54:36.937 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-27 04:15:24.215 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json

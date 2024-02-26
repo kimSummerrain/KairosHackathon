@@ -1,0 +1,38 @@
+2024-02-27 04:32:37.452 [info] 로그 수준: Info
+2024-02-27 04:32:37.452 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-02-27 04:32:37.452 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2024-02-27 04:32:37.452 [info] > git rev-parse --show-toplevel [9ms]
+2024-02-27 04:32:37.452 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-02-27 04:32:37.452 [info] Open repository: /root
+2024-02-27 04:32:37.452 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-27 04:32:37.452 [info] > git config --get commit.template [13ms]
+2024-02-27 04:32:37.452 [info] No remotes found in the git config file.
+2024-02-27 04:32:37.452 [info] > git rev-parse --show-toplevel [44ms]
+2024-02-27 04:32:37.452 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [48ms]
+2024-02-27 04:32:37.453 [info] > git rev-parse --show-toplevel [12ms]
+2024-02-27 04:32:37.454 [info] > git rev-parse --show-toplevel [13ms]
+2024-02-27 04:32:37.463 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 04:32:37.470 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-27 04:32:37.605 [info] > git status -z -uall [178ms]
+2024-02-27 04:32:38.523 [info] > git config --get commit.template [21ms]
+2024-02-27 04:32:38.537 [info] No remotes found in the git config file.
+2024-02-27 04:32:38.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-02-27 04:32:38.553 [info] > git check-ignore -v -z --stdin [32ms]
+2024-02-27 04:32:38.733 [info] > git status -z -uall [181ms]
+2024-02-27 04:32:39.960 [info] > git show --textconv :venvs/karios/templates/startscreen.html [16ms]
+2024-02-27 04:32:39.968 [info] > git ls-files --stage -- /root/venvs/karios/templates/startscreen.html [9ms]
+2024-02-27 04:32:39.986 [info] > git cat-file -s a1f900770d2f57b7820e7710ac8ee6feb05f9ec3 [2ms]
+2024-02-27 04:32:43.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [3ms]
+2024-02-27 04:32:43.342 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-02-27 04:32:43.343 [warning] git config failed: Failed to execute git
+2024-02-27 04:32:43.357 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-02-27 04:32:43.377 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-02-27 04:32:43.377 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-27 04:32:43.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [12ms]
+2024-02-27 04:32:43.582 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-02-27 04:32:43.582 [warning] git config failed: Failed to execute git
+2024-02-27 04:32:43.594 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-02-27 04:32:43.606 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-02-27 04:32:43.606 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-02-27 04:32:44.129 [info] > git check-ignore -v -z --stdin [25ms]
+2024-02-27 04:32:49.240 [info] > git check-ignore -v -z --stdin [144ms]

@@ -1,0 +1,27 @@
+2024-02-26 20:43:50.597 [info] Log level: Info
+2024-02-26 20:43:50.597 [info] Validating found git in: "git"
+2024-02-26 20:43:50.597 [info] Using git "2.20.1" from "git"
+2024-02-26 20:43:50.597 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 20:43:50.597 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-02-26 20:43:50.597 [info] Open repository: /root
+2024-02-26 20:43:50.597 [info] > git config --get commit.template [12ms]
+2024-02-26 20:43:50.597 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-26 20:43:50.597 [info] No remotes found in the git config file.
+2024-02-26 20:43:50.597 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-26 20:43:50.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-02-26 20:43:50.597 [warning] No such branch: master.
+2024-02-26 20:43:50.597 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-26 20:43:50.607 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-26 20:43:50.667 [info] > git rev-parse --show-toplevel [52ms]
+2024-02-26 20:43:50.783 [info] > git status -z -uall [211ms] (cancelled)
+2024-02-26 20:43:51.068 [info] > git show --textconv :venvs/karios/test2.py [15ms]
+2024-02-26 20:43:51.075 [info] > git ls-files --stage -- /root/venvs/karios/test2.py [8ms]
+2024-02-26 20:43:51.301 [info] > git check-ignore -v -z --stdin [19ms]
+2024-02-26 20:43:52.361 [info] > git check-ignore -v -z --stdin [8ms]
+2024-02-26 20:43:53.056 [info] > git show --textconv :venvs/karios/templates/calendar.html [18ms]
+2024-02-26 20:43:53.061 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [6ms]
+2024-02-26 20:43:55.369 [info] > git show --textconv :venvs/karios/templates/main.html [12ms]
+2024-02-26 20:43:55.375 [info] > git ls-files --stage -- /root/venvs/karios/templates/main.html [7ms]
+2024-02-26 20:43:56.819 [info] > git show --textconv :venvs/karios/templates/calendar.html [14ms]
+2024-02-26 20:43:56.822 [info] > git ls-files --stage -- /root/venvs/karios/templates/calendar.html [4ms]
+2024-02-26 20:43:57.984 [info] > git check-ignore -v -z --stdin [17ms]

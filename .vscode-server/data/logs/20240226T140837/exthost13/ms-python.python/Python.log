@@ -222,3 +222,161 @@ Try `python -h' for more information.
   path: '/root/anaconda3/bin'
 }
 2024-02-26 14:34:54.467 [info] Discover tests for workspace name: root - uri: /root/kairos/app.py
+2024-02-26 14:35:37.955 [info] Discover tests for workspace name: root - uri: /root/kairos/app.py
+2024-02-26 14:35:53.334 [info] Discover tests for workspace name: root - uri: /root/kairos/app.py
+2024-02-26 14:36:26.309 [info] Discover tests for workspace name: root - uri: /root/kairos/app.py
+2024-02-26 14:37:11.530 [info] Discover tests for workspace name: root - uri: /root/kairos/app.py
+2024-02-26 14:40:26.701 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:40:26.702 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:40:26.747 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:40:26.748 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:40:27.962 [warning] Failed to check if /root/anaconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/root/anaconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/root/anaconda3/bin/python'
+}
+2024-02-26 14:40:27.964 [warning] Identifier for virt-virtualenv failed to identify /root/anaconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/root/anaconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/root/anaconda3/bin'
+}
+2024-02-26 14:40:31.842 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 14:40:31.843 [info] Python interpreter path: /usr/bin/python
+2024-02-26 15:32:02.661 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 15:33:49.614 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 15:36:21.834 [info] > ./venvs/karios/pyvenv.cfg -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:36:21.838 [error] [Error: Command failed: /root/venvs/karios/pyvenv.cfg -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/venvs/karios/pyvenv.cfg: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/root/venvs/karios/pyvenv.cfg -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 15:36:23.888 [info] > ./venvs/karios/pyvenv.cfg -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:36:23.891 [error] [Error: Command failed: /root/venvs/karios/pyvenv.cfg -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /root/venvs/karios/pyvenv.cfg: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/root/venvs/karios/pyvenv.cfg -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 15:36:29.056 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-02-26 15:36:29.058 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-02-26 15:36:29.058 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-02-26 15:36:29.059 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-02-26 15:36:29.059 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-02-26 15:36:29.092 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:36:34.388 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:37:34.279 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:37:34.331 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:37:34.331 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-26 15:37:34.381 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 15:37:34.381 [info] shell: bash
+2024-02-26 15:37:34.424 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 15:37:34.424 [info] shell: bash
+2024-02-26 15:37:34.447 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 15:38:04.448 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-26 15:39:34.509 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:39:34.511 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-26 15:44:18.187 [info] Send text to terminal:  /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57317 -- /root/venvs/karios/app.py 
+2024-02-26 15:50:21.850 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:02:14.509 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:02:48.658 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:02:52.220 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:07:12.052 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 20:46:26.910 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 20:46:28.892 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:52:53.491 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:52:58.808 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:52:59.206 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:53:06.075 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:01:06.129 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:01:12.881 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:01:52.067 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:01:52.558 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:04:20.718 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:06:15.049 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 01:06:19.596 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59311 -- /root/venvs/karios/test_M1.py 
+2024-02-27 01:06:28.623 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 01:51:52.353 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45965 -- /root/ex.py 
+2024-02-27 01:52:00.878 [info] Send text to terminal: /root/venvs/karios/bin/python /root/ex.py
+2024-02-27 01:52:00.918 [info] CreateEnv Trigger - Skipping for /root/ex.py
+2024-02-27 01:52:16.045 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 37021 -- /root/venvs/karios/doeun_test.py 
+2024-02-27 01:52:22.674 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 43927 -- /root/ex.py 
+2024-02-27 01:53:22.008 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59255 -- /root/venvs/karios/doeun_practice.py 
+2024-02-27 01:54:01.370 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_practice.py
+2024-02-27 01:54:01.419 [info] Send text to terminal:  cd /root ; /usr/bin/env /root/venvs/karios/bin/python /root/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35569 -- /root/venvs/karios/doeun_practice.py 
+2024-02-27 02:08:17.929 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:40.533 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:10:10.303 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:10:11.693 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:10:33.005 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:33:32.246 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:33:33.722 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:33:42.887 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:35:27.770 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:35:42.057 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:41:26.047 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:41:49.162 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:42:04.282 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:15:46.011 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:15:52.789 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:20:01.783 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:24:08.384 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:24:15.225 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:29:53.959 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:29:58.227 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:29:58.592 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:30:31.655 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:30:34.948 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:30:55.307 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:31:09.271 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:43:04.785 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:49:01.897 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:50:28.515 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:50:46.105 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:53:14.972 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 03:53:17.279 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:03:28.358 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py

@@ -1,0 +1,20 @@
+2024-02-27 03:51:43.190 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-27 03:51:43.190 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-27 03:51:43.190 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-27 03:51:43.190 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-27 03:51:43.190 [info] Experiment 'pythonTestAdapter' is active
+2024-02-27 03:51:43.324 [info] Default formatter is set to null for workspace /root
+2024-02-27 03:51:43.873 [info] Test server listening.
+2024-02-27 03:51:43.875 [info] Python interpreter path: ./venvs/karios/bin/python
+2024-02-27 03:51:44.465 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-27 03:51:44.466 [info] shell: bash
+2024-02-27 03:51:44.516 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-27 03:51:44.517 [info] shell: bash
+2024-02-27 03:51:44.539 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-27 03:51:45.692 [info] Starting Pylance language server.
+2024-02-27 03:52:14.541 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-27 04:08:31.890 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:16:19.045 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py

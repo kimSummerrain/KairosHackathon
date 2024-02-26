@@ -1,0 +1,24 @@
+2024-02-26 18:36:32.147 [info] 로그 수준: Info
+2024-02-26 18:36:32.147 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2024-02-26 18:36:32.147 [info] "2.20.1"에서 git "git"을(를) 사용하는 중
+2024-02-26 18:36:32.147 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-26 18:36:32.147 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-02-26 18:36:32.147 [info] Open repository: /root
+2024-02-26 18:36:32.147 [info] > git config --get commit.template [13ms]
+2024-02-26 18:36:32.147 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-26 18:36:32.147 [info] No remotes found in the git config file.
+2024-02-26 18:36:32.147 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-26 18:36:32.147 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-02-26 18:36:32.147 [info] > git rev-parse --show-toplevel [5ms]
+2024-02-26 18:36:32.147 [info] > git rev-parse --show-toplevel [179ms]
+2024-02-26 18:36:32.170 [info] > git rev-parse --show-toplevel [8ms]
+2024-02-26 18:36:32.187 [info] > git status -z -uall [256ms] (cancelled)
+2024-02-26 18:36:32.505 [info] > git show --textconv :venvs/karios/app.py [16ms]
+2024-02-26 18:36:32.508 [info] > git ls-files --stage -- /root/venvs/karios/app.py [4ms]
+2024-02-26 18:36:32.703 [info] > git check-ignore -v -z --stdin [18ms]
+2024-02-26 18:37:51.983 [info] > git show --textconv :.bashrc [14ms]
+2024-02-26 18:37:51.992 [info] > git ls-files --stage -- /root/.bashrc [10ms]
+2024-02-26 18:37:52.005 [info] > git cat-file -s 5d3a56ebf44dbf13b97fa3f001d21191465af0e7 [2ms]
+2024-02-26 18:37:54.606 [info] > git check-ignore -v -z --stdin [6ms]
+2024-02-26 18:37:56.249 [info] > git check-ignore -v -z --stdin [11ms]
+2024-02-26 18:37:57.977 [info] > git check-ignore -v -z --stdin [11ms]

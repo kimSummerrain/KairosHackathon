@@ -1,0 +1,24 @@
+2024-02-26 19:40:51.257 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-26 19:40:51.257 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-26 19:40:51.257 [info] Experiment 'pythonSurveyNotification' is active
+2024-02-26 19:40:51.257 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-26 19:40:51.257 [info] Experiment 'pythonTestAdapter' is active
+2024-02-26 19:40:51.309 [info] Default formatter is set to null for workspace /root
+2024-02-26 19:40:51.782 [info] Test server listening.
+2024-02-26 19:40:51.837 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 19:40:51.887 [info] Python interpreter path: /usr/bin/python3
+2024-02-26 19:40:51.939 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 19:40:51.939 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 19:40:51.939 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-02-26 19:40:53.453 [info] Starting Pylance language server.
+2024-02-26 19:41:44.104 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:41:47.866 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 19:42:13.697 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:42:20.129 [info] Send text to terminal: /usr/bin/python3 /root/venvs/karios/test2.py
+2024-02-26 19:42:29.689 [info] Send text to terminal: /usr/bin/python3 /root/venvs/karios/test2.py
+2024-02-26 19:42:36.479 [info] Send text to terminal: /usr/bin/python3 /root/venvs/karios/test2.py
+2024-02-26 19:42:42.982 [info] Send text to terminal: /usr/bin/python3 /root/venvs/karios/test2.py
+2024-02-26 19:46:36.561 [info] Send text to terminal: /usr/bin/python3 /root/venvs/karios/test2.py
+2024-02-26 19:47:31.810 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:47:36.764 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:51:18.326 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py

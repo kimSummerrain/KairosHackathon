@@ -41,3 +41,135 @@
 2024-02-26 14:33:02.985 [info] [<unknown>][abd893f6][ExtensionHostConnection] <236283> Extension Host Process exited with code: 0, signal: null.
 2024-02-26 14:33:20.256 [info] [<unknown>][3fc116ad][ExtensionHostConnection] <236410> Extension Host Process exited with code: 0, signal: null.
 2024-02-26 14:33:27.761 [info] [<unknown>][8799ec31][ExtensionHostConnection] <236509> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 15:02:26.663 [info] Extensions added from another source mhutchie.git-graph file:///root/.vscode-server/extensions/extensions.json
+2024-02-26 16:57:59.681 [info] Extensions added from another source cweijan.dbclient-jdbc file:///root/.vscode-server/extensions/extensions.json
+2024-02-26 16:58:01.243 [info] Extensions added from another source cweijan.vscode-mysql-client2 file:///root/.vscode-server/extensions/extensions.json
+2024-02-26 18:45:09.942 [info] [<unknown>][64fd04b8][ExtensionHostConnection] New connection established.
+2024-02-26 18:45:09.955 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> Launched Extension Host Process.
+2024-02-26 18:45:09.957 [info] [<unknown>][c3f4f62a][ManagementConnection] New connection established.
+2024-02-26 18:45:12.321 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 18:50:10.097 [info] [<unknown>][0387f55e][ExtensionHostConnection] <236612> Extension Host Process exited with code: 0, signal: null.
+2024-02-26 22:01:07.723 [info] [<unknown>][c3f4f62a][ManagementConnection] The client has reconnected.
+2024-02-26 22:01:08.749 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateIcon (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27592)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 22:01:08.753 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 22:01:08.754 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 22:01:08.755 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/root/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-26 22:01:22.962 [info] [<unknown>][64fd04b8][ExtensionHostConnection] The client has reconnected.
+2024-02-27 03:42:23.356 [info] Extensions added from another source ritwickdey.liveserver file:///root/.vscode-server/extensions/extensions.json
+2024-02-27 04:15:25.839 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /static/smartphone.png [33m404[0m 4.501 ms - 160[0m
+
+2024-02-27 04:15:26.012 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /favicon.ico [33m404[0m 1.427 ms - 150[0m
+
+2024-02-27 04:15:48.886 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /static/smartphone.png [33m404[0m 1.028 ms - 160[0m
+
+2024-02-27 04:15:49.236 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /static/smartphone.png [33m404[0m 0.988 ms - 160[0m
+
+2024-02-27 04:16:07.465 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /static/smartphone.png [33m404[0m 1.499 ms - 160[0m
+
+2024-02-27 04:16:09.337 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /static/smartphone.png [33m404[0m 0.996 ms - 160[0m
+
+2024-02-27 04:20:03.853 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/smartphone.png [33m404[0m 0.938 ms - 176[0m
+
+2024-02-27 04:20:03.862 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/smartphone.png [33m404[0m 0.610 ms - 176[0m
+
+2024-02-27 04:20:08.775 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.934 ms - 183[0m
+
+2024-02-27 04:20:21.129 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 1.327 ms - 183[0m
+
+2024-02-27 04:20:35.963 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/smartphone.png [33m404[0m 0.886 ms - 176[0m
+
+2024-02-27 04:20:38.236 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.779 ms - 183[0m
+
+2024-02-27 04:20:49.176 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.822 ms - 183[0m
+
+2024-02-27 04:20:51.049 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.550 ms - 183[0m
+
+2024-02-27 04:20:52.249 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.966 ms - 183[0m
+
+2024-02-27 04:21:16.324 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/assets/smartphone.png [33m404[0m 0.791 ms - 183[0m
+
+2024-02-27 04:21:34.235 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/assets/smartphone.png [33m404[0m 2.073 ms - 190[0m
+
+2024-02-27 04:21:49.550 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/assets/smartphone.png [33m404[0m 0.801 ms - 190[0m
+
+2024-02-27 04:21:53.723 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/assets/smartphone.png [33m404[0m 0.867 ms - 190[0m
+
+2024-02-27 04:22:03.302 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/assets/smartphone.png [33m404[0m 1.859 ms - 190[0m
+
+2024-02-27 04:22:10.376 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.921 ms - 183[0m
+
+2024-02-27 04:22:14.808 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.727 ms - 183[0m
+
+2024-02-27 04:22:15.433 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.734 ms - 183[0m
+
+2024-02-27 04:22:19.958 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.797 ms - 183[0m
+
+2024-02-27 04:22:20.505 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.721 ms - 183[0m
+
+2024-02-27 04:22:20.982 [info] [<unknown>][64fd04b8][ExtensionHostConnection] <257135> [0mGET /venvs/karios/templates/static/smartphone.png [33m404[0m 0.709 ms - 183[0m
+

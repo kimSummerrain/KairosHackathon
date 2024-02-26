@@ -1,0 +1,730 @@
+2024-02-26 18:45:12.612 [info] 실험 'pythonaa'이(가) 활성 상태입니다.
+2024-02-26 18:45:12.612 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2024-02-26 18:45:12.612 [info] 실험 'pythonREPLSmartSend'이(가) 활성 상태입니다.
+2024-02-26 18:45:12.612 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2024-02-26 18:45:12.612 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2024-02-26 18:45:12.612 [info] Default formatter is set to null for workspace /root
+2024-02-26 18:45:12.612 [info] Test server listening.
+2024-02-26 18:45:12.639 [info] > C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:45:12.682 [error] [Error: Command failed: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersAdministratorAppDataLocalProgramsPythonPython310python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 18:45:12.690 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:45:12.896 [info] Python 인터프리터 경로: ./venvs/karios/bin/python
+2024-02-26 18:45:14.700 [info] > C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:45:14.703 [error] [Error: Command failed: C:\Users\Administrator\AppData\Local\Programs\Python\Python310\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersAdministratorAppDataLocalProgramsPythonPython310python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python310\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 18:45:14.886 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:45:14.886 [info] shell: bash
+2024-02-26 18:45:14.935 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:45:14.935 [info] shell: bash
+2024-02-26 18:45:14.957 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 18:45:16.142 [info] Pylance 언어 서버를 시작하는 중입니다.
+2024-02-26 18:45:44.962 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
+2024-02-26 19:01:58.792 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:01:59.989 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:02:01.358 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:02:04.840 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:05:55.512 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:00.763 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:09.141 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:10.334 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:20.009 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:24.627 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:36.698 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:06:42.172 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:00.211 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:07.891 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:09.114 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:13.567 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:22.476 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:33.919 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:07:34.025 [info] CreateEnv Trigger - Skipping for /root/venvs/karios/test2.py
+2024-02-26 19:07:43.102 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:47.092 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:49.488 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:51.586 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:07:51.702 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:08:13.930 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:08:13.944 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:08:16.160 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:08:21.435 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:08:21.637 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:08:25.728 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:08:26.192 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:08:28.908 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:10:06.762 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:10:14.110 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:10:14.943 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:10:23.252 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:10:28.166 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:10:45.211 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:11:23.471 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:11:25.696 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:11:26.551 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:11:29.042 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:11:34.866 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:11:36.423 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:11:38.363 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:11:38.652 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:11:41.654 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:12:49.134 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:13:41.375 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:14:18.263 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:14:22.387 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:14:22.649 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:14:36.435 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:15:08.302 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:15:16.290 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:15:42.043 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:16:57.248 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:19:46.174 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:21:36.532 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:21:54.768 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:21:56.931 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:23:30.197 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:25:27.937 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:25:29.693 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:25:33.765 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:25:40.749 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:25:50.246 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:26:09.851 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:26:13.131 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:26:15.294 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:26:19.678 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:27:00.686 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:27:02.971 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:27:07.788 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:27:07.837 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:27:11.472 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:27:16.431 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:27:16.638 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:27:26.547 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:27:31.311 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:29:47.196 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:29:49.295 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:29:51.487 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:29:51.760 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:29:58.365 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:29:58.417 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:30:28.697 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:30:34.597 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:30:34.609 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:30:51.679 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:30:53.148 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:31:52.323 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:31:53.914 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:31:55.483 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:31:57.404 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:32:45.328 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:32:47.534 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:33:42.929 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:34:01.904 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:34:04.227 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:34:07.440 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:34:25.839 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:34:26.019 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:34:33.792 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:37:21.325 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:37:24.596 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:37:27.190 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:37:27.375 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:39:17.428 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:39:19.649 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 19:39:25.773 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:48:11.876 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:48:24.900 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:48:25.067 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:48:33.474 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:48:35.399 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:48:35.435 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:48:38.579 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:48:54.741 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 19:48:56.541 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:49:42.072 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:51:11.668 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:51:37.265 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:52:36.554 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 19:59:12.567 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 19:59:20.456 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 19:59:54.567 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 20:00:24.213 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:00:47.246 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:00:47.628 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:00:54.570 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:00:56.289 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:00:56.850 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:01:13.179 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:01:15.064 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:01:15.585 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:01:19.655 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:01:35.206 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:01:47.227 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:01:48.160 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:01:50.335 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:01:54.914 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:02:23.782 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:31.889 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:33.407 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:35.715 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:37.239 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:39.348 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:43.422 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:44.519 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:46.570 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:48.553 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:50.127 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:51.372 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:56.501 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:02:59.561 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:03:01.467 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:03:03.798 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 20:03:06.427 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/DBtest.py
+2024-02-26 20:03:10.887 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:03:18.472 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:04:35.535 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:07:35.670 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:22:55.712 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:03.027 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:06.476 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:09.374 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:14.407 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:14.929 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:23:39.067 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:44.882 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:54.574 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:23:56.015 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:24:00.340 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:24:02.453 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:24:04.820 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:24:54.875 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:24:57.199 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:00.218 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:03.316 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:07.035 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:11.491 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:13.143 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:15.106 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:17.309 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:25:20.848 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:21.182 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:25:28.693 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:28.861 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:25:32.904 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:25:45.340 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:26:00.881 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:26:06.239 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:26:06.281 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:26:08.389 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:26:08.551 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:26:33.583 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:26:36.553 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:26:48.648 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:26:49.312 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:27:02.319 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:04.085 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:06.005 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:06.202 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:27:10.952 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:27:11.007 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:15.056 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:40.258 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:27:40.449 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:27:59.779 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:27:59.823 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:28:04.279 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:28:05.717 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:28:05.822 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:28:12.881 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:28:35.330 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:28:39.874 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:29:02.490 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:29:17.335 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:29:24.491 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:29:26.888 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:29:29.292 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:29:31.141 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:33.441 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:38.429 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:45.560 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:49.428 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:51.840 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:56.658 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:30:59.286 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:16.837 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:17.874 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:23.850 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:26.876 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:31.798 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:39.306 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:42.626 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:48.905 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:50.133 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:31:52.614 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:04.187 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:09.225 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:15.593 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:18.908 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:21.105 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:26.287 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:28.896 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:33.743 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:38.743 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:40.634 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:43.615 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:32:43.968 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:32:57.728 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:32:57.767 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:34.492 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:36.359 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:38.859 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:47.577 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:53.737 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:33:58.681 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:34:03.823 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:34:45.990 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:34:48.155 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:34:51.710 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:21.188 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:26.091 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:28.522 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:29.769 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:30.162 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:35:37.138 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:38.130 [info] > ./venvs/karios/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/normalizeSelection.py
+2024-02-26 20:35:41.217 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:41.376 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:35:47.179 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:49.063 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:50.089 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:52.795 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:35:53.066 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:35:58.565 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:36:42.905 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:36:53.843 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:36:56.033 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:36:58.392 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:37:00.756 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:37:04.632 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:37:16.939 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:37:22.648 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:02.162 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:06.418 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:11.741 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:12.857 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:15.868 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:20.577 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:43.298 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:47.682 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:44:56.687 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:02.662 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:06.164 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:11.448 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:12.889 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:16.119 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:22.040 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:24.412 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:25.645 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:27.959 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:31.910 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:43.517 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:45.040 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:46.540 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:45:48.745 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:46:18.585 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:46:25.219 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:46:27.835 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:46:43.724 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:46:45.473 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:46:48.538 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:46:48.584 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:46:55.404 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:09.136 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:09.804 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:47:16.384 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:19.303 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:22.477 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:24.532 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:25.958 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:47:26.385 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:47:43.440 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:48:21.247 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:48:37.734 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:48:42.941 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:48:43.841 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:48:56.531 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:48:56.560 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:49:00.708 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:49:12.991 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:17.668 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:17.710 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:49:20.338 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:49:20.583 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:26.634 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:28.170 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:34.739 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:49:37.885 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:49:37.955 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test2.py
+2024-02-26 20:50:17.762 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test2.py
+2024-02-26 20:50:59.647 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test1.py
+2024-02-26 20:51:12.222 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:19.948 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:43.488 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:48.689 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:56.682 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:58.262 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:51:59.469 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:52:00.884 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:52:12.057 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:52:14.864 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:52:17.165 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:58:09.877 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 20:58:14.863 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:30.902 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:33.505 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:36.065 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:37.180 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:40.853 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:46.991 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:05:49.378 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:02.498 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:05.440 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:08.707 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:13.766 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:16.079 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:18.656 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:21.761 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:29.826 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:41.037 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:42.383 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:45.191 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:06:50.199 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:07:06.345 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:07:06.851 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:07:24.874 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:08:52.684 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:26:47.095 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:26:50.855 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 21:27:52.689 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 21:27:56.446 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 21:28:02.693 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 21:28:04.474 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 21:29:46.298 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:01:24.014 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:02:20.223 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:02:23.781 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:02:26.549 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:02:30.893 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:02:35.034 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:03:52.192 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:03:57.829 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:04:06.580 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:04:13.621 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:04:18.671 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test1.py
+2024-02-26 22:05:54.794 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:05:56.279 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:12.859 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:48.730 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:50.404 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:53.199 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:56.725 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:06:58.077 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:09:35.631 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:09:39.586 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:09:44.512 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:09:55.800 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:11:40.170 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:11:42.644 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:11:47.599 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:11:53.553 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:11:55.270 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:11:57.010 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:12:02.968 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/DBtest.py
+2024-02-26 22:14:05.724 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:14:16.648 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:16:53.213 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:16:56.595 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:00.134 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:05.914 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:11.803 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:12.936 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:13.042 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-26 22:17:25.319 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:25.696 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-26 22:17:30.454 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:34.950 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:17:55.069 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:12.232 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:13.644 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:18.986 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:28.136 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:29.551 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:34.398 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:18:36.991 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-26 22:19:14.765 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:19:17.957 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:19:20.096 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:19:21.899 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:22:26.715 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:23:07.884 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:23:21.952 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:23:25.455 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-26 22:23:32.331 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:23:35.843 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:23:37.807 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:23:56.003 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/app.py
+2024-02-26 22:25:31.298 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:31:52.757 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:04.528 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:09.968 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:11.218 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:13.922 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:19.759 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:26.023 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:32.875 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:36.547 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:32:39.243 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:22.022 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:25.914 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:28.764 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:31.829 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:45.221 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:46.624 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:48.926 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:50.329 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:53.097 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:54.694 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:33:57.134 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:00.245 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:05.803 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:08.564 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:11.366 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:16.235 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:34:59.188 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:37:14.238 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:37:15.358 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:37:51.623 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:37:53.775 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:38:30.251 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:38:32.196 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:12.952 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:14.230 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:15.489 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:16.978 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:18.158 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:39:19.216 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:40:09.752 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:40:20.557 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:40:33.102 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:40:38.446 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:43:52.889 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:43:55.284 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:02.458 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:07.530 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:08.868 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:10.559 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:13.273 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:16.403 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:44:55.396 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:46:38.970 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 22:47:13.986 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:26:07.683 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:26:11.545 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:26:12.845 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:26:20.627 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/app.py
+2024-02-26 23:27:30.585 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-26 23:29:00.088 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/app.py
+2024-02-26 23:32:02.825 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:36:48.089 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:37:42.415 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:37:44.570 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:37:50.914 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:37:53.570 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:04.649 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:06.405 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:08.799 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:10.441 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:13.468 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:15.291 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:16.507 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:20.093 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:23.177 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:24.677 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:31.793 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:32.959 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:33.997 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:42.872 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:44.766 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:49.733 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:38:51.052 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:40:22.567 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:40:52.452 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:01.615 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:04.446 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:08.943 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:12.775 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:25.556 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:29.037 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:32.527 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:37.187 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:39.992 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:48.928 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:51.291 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:41:55.167 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:49:52.601 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:49:56.277 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:49:59.213 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:50:01.005 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:50:03.247 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:51:17.691 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:55:52.763 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:56:03.285 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:58:28.512 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:58:31.269 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:58:33.579 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:58:34.922 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:58:36.658 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:59:38.068 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:59:40.445 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 00:59:54.312 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:20.972 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:22.812 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:24.434 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:27.529 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:28.989 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:49.323 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:50.763 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:52.468 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:00:58.638 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:26.083 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:27.624 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:31.103 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:33.012 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:35.265 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:37.574 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:01:43.950 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:02:33.633 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:02:39.434 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:02:41.706 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:02:56.554 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:02:58.372 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:03:05.022 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:03:06.374 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:10.100 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:12.052 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:17.159 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:21.657 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:25.419 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:28.757 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:05:34.165 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:33:46.641 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:35:10.720 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:35:13.961 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:35:17.730 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:35:19.233 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:36:34.848 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:36:37.656 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:58:05.279 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:58:08.456 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:58:11.832 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:58:12.912 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:58:15.526 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:59:37.904 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:59:42.136 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 01:59:58.175 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:00:29.687 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:00:34.451 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:00:37.264 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:00:40.965 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:00:58.050 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:03.615 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:07.490 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:33.492 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:35.123 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:39.915 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:54.336 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:01:59.932 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:01.761 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:03.128 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:04.255 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:11.279 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:14.015 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:16.818 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:31.229 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:38.654 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:48.897 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:02:52.655 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:03:46.824 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:03:52.210 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:21.959 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:28.457 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:33.887 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:47.342 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:48.442 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:50.903 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:52.463 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:09:56.915 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:10:15.002 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:10:47.512 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:11:36.370 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 02:12:13.551 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 02:12:26.509 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 02:12:27.705 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/doeun_test.py
+2024-02-27 02:12:46.031 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:12:49.483 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:12:50.978 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:12:57.354 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:12:58.701 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:01.320 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:04.842 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:07.385 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:11.471 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:13.637 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:16.233 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:17.384 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:19.884 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:21.536 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:28.176 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:33.539 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:39.178 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:42.978 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:44.333 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:13:44.812 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-27 02:14:11.506 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:14:12.191 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-27 02:14:44.707 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:14:47.790 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:14:48.342 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/test_M1.py
+2024-02-27 02:14:54.796 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/test_M1.py
+2024-02-27 02:15:12.503 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:15:50.807 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:15:56.259 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 02:15:59.170 [info] Discover tests for workspace name: root - uri: /root/venvs/karios/app.py
+2024-02-27 04:07:53.698 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/app.py
+2024-02-27 04:08:21.465 [info] Send text to terminal: /root/venvs/karios/bin/python /root/venvs/karios/app.py
+2024-02-27 04:15:24.217 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json
+2024-02-27 04:15:24.469 [info] Discover tests for workspace name: root - uri: /root/.vscode/settings.json

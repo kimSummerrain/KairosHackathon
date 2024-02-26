@@ -1,0 +1,18 @@
+2024-02-26 18:36:30.177 [info] 실험 'pythonRecommendTensorboardExt'이(가) 활성 상태입니다.
+2024-02-26 18:36:30.177 [info] 실험 'pythonREPLSmartSend'이(가) 활성 상태입니다.
+2024-02-26 18:36:30.177 [info] 실험 'pythonTerminalEnvVarActivation'이(가) 활성 상태입니다.
+2024-02-26 18:36:30.177 [info] 실험 'pythonTestAdapter'이(가) 활성 상태입니다.
+2024-02-26 18:36:30.219 [info] Default formatter is set to null for workspace /root
+2024-02-26 18:36:30.700 [info] Test server listening.
+2024-02-26 18:36:30.723 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 18:36:30.770 [info] Python 인터프리터 경로: ./venvs/karios/bin/python
+2024-02-26 18:36:30.927 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:36:30.928 [info] shell: bash
+2024-02-26 18:36:31.032 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 18:36:31.032 [info] shell: bash
+2024-02-26 18:36:31.172 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 18:36:33.001 [info] Pylance 언어 서버를 시작하는 중입니다.
+2024-02-26 18:37:01.173 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]

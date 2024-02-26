@@ -55,3 +55,72 @@
   cmd: 'C:\\Anaconda\\anaconda\\envs\\spyder\\python.exe -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
 }
 2024-02-26 14:26:43.229 [info] Pylance 언어 서버를 시작하는 중입니다.
+2024-02-26 14:52:57.377 [info] > python -c "import sys;print(sys.executable)"
+2024-02-26 14:52:57.424 [info] > /usr/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:52:57.431 [warning] [Error: Command failed: /usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 14:52:57.431 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-26 14:52:57.438 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 14:52:57.467 [info] Python 인터프리터 경로: /usr/bin/python
+2024-02-26 14:52:57.467 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:32:13.241 [info] Send text to terminal: /usr/bin/python /root/venvs/karios/app.py
+2024-02-26 15:32:13.247 [warning] Failed to check if python is an executable [Error: ENOENT: no such file or directory, lstat 'python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: 'python'
+}
+2024-02-26 15:32:13.266 [info] > python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:32:13.272 [warning] [Error: Command failed: python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:525:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:322:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: 'python -I /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py'
+}
+2024-02-26 15:32:13.272 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-02-26 15:32:13.279 [info] > python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:37:01.436 [info] > conda info --json
+2024-02-26 15:37:01.455 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-02-26 15:37:01.456 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-02-26 15:37:01.456 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-02-26 15:37:01.456 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-02-26 15:37:01.456 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-02-26 15:37:01.491 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:37:01.558 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:37:01.560 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:37:17.848 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:37:17.849 [info] Python 인터프리터 경로: /usr/bin/python3
+2024-02-26 15:39:38.469 [info] > ./venvs/karios/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/interpreterInfo.py
+2024-02-26 15:39:38.518 [info] Discover tests for workspace name: root - uri: /root
+2024-02-26 15:39:38.518 [info] Python 인터프리터 경로: ./venvs/karios/bin/python
+2024-02-26 15:39:38.550 [info] > . ./venvs/karios/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 15:39:38.550 [info] shell: bash
+2024-02-26 15:39:38.605 [info] > /usr/bin/python ./.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariables.py
+2024-02-26 15:39:38.605 [info] shell: bash
+2024-02-26 15:39:38.628 [info] Send text to terminal: /usr/bin/python /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt
+2024-02-26 15:40:08.629 [error] Failed to initialize deactivate script /bin/bash [Error: "/root/.vscode-server/extensions/ms-python.python-2024.0.1/pythonFiles/deactivate/bash/envVars.txt" file not created
+	at Timeout.<anonymous> (/root/.vscode-server/extensions/ms-python.python-2024.0.1/out/client/extension.js:2:276484)
+	at listOnTimeout (node:internal/timers:569:17)
+	at process.processTimers (node:internal/timers:512:7)]
